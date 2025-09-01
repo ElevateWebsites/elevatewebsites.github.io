@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Path Finder</title>
+    <link rel="icon" href="icon.png" type="image/png">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+            margin: 2rem auto;
+            background-color: #ffffff;
+            border-radius: 1.5rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem; /* Reduced padding for smaller screens */
+            transition: all 0.5s ease-in-out;
+        }
+        @media (min-width: 640px) {
+            .container {
+                padding: 2rem; /* Restore padding on larger screens */
+            }
+        }
+        .message-box {
+            position: fixed;
+            top: 1rem; /* Adjusted for mobile */
+            right: 1rem; /* Adjusted for mobile */
+            padding: 1rem 1.5rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            z-index: 1000;
+            display: none;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .view-section {
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        .view-section.active {
+            display: block;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .button {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: #4f46e5;
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            margin-top: -8px;
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background: #4f46e5;
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="range"]::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 4px;
+            cursor: pointer;
+            background: #e5e7eb;
+            border-radius: 2px;
+        }
+
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 4px solid #fff;
+            width: 32px;
+            height: 32px;
+            -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+        }
+
+        @-webkit-keyframes spin {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .rating-input:checked + .rating-label .star-icon {
+            fill: #f59e0b;
+        }
+        .rating-label:hover .star-icon {
+            fill: #f59e0b;
+        }
+        .rating-label:hover ~ .rating-label .star-icon {
+            fill: #d1d5db;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center">
+
+    <div id="app" class="container">
+        
+        <!-- Welcome View -->
+        <div id="welcome-view" class="view-section active text-center">
+            <h1 class="text-4xl font-extrabold text-gray-800 mb-4">Discover Your Career Path</h1>
+            <p class="text-gray-600 mb-8">Answer a few questions to find career recommendations that fit your interests and skills.</p>
+            <button id="start-btn" class="button bg-indigo-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-indigo-700">Get Started</button>
+        </div>
+
+        <!-- Test View -->
+        <div id="test-view" class="view-section">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Career Interests</h2>
+            <div id="questions-container" class="space-y-8">
+                <!-- Questions will be populated here by JavaScript -->
+            </div>
+            <div id="navigation-buttons" class="mt-8 flex justify-between">
+                <button id="prev-btn" class="button bg-gray-300 text-gray-800 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-gray-400" style="display: none;">Previous</button>
+                <button id="next-btn" class="button bg-indigo-600 text-white font-semibold py-2 px-6 rounded-full shadow-md hover:bg-indigo-700 ml-auto">Next</button>
+            </div>
+        </div>
+
+        <!-- Results View -->
+        <div id="results-view" class="view-section">
+            <div class="flex flex-col items-center justify-center mb-6">
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-4">Your Career Recommendations</h2>
+                <div class="flex space-x-4 mb-4">
+                    <button id="download-pdf-btn" class="button bg-green-500 text-white font-semibold py-2 px-4 rounded-full shadow-md hover:bg-green-600">Download PDF</button>
+                    <button id="start-over-btn" class="button bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded-full shadow-md hover:bg-gray-400">Start Over</button>
+                </div>
+            </div>
+            <div id="recommendations-container" class="space-y-6">
+                <!-- Recommendations will be populated here -->
+            </div>
+        </div>
+        
+        <!-- Loading Indicator -->
+        <div id="loading-view" class="view-section flex flex-col items-center justify-center">
+            <div class="spinner"></div>
+            <p class="text-gray-600 mt-4 text-center">Finding your perfect career path...</p>
+        </div>
+    </div>
+
+    <!-- Message Box for Alerts -->
+    <div id="message-box" class="message-box">
+        <p id="message-text" class="text-gray-800"></p>
+    </div>
+
+    <script>
+        // Global variables for Firebase
+        const __app_id = '';
+        const __firebase_config = '{}';
+        const __initial_auth_token = '';
+
+        // Function to show a message box instead of an alert
+        function showMessage(message) {
+            const msgBox = document.getElementById('message-box');
+            const msgText = document.getElementById('message-text');
+            msgText.textContent = message;
+            msgBox.style.display = 'block';
+            msgBox.style.opacity = '1';
+            setTimeout(() => {
+                msgBox.style.opacity = '0';
+                setTimeout(() => {
+                    msgBox.style.display = 'none';
+                }, 300);
+            }, 3000);
+        }
+
+        // Functions to manage views
+        function showView(viewId) {
+            const views = document.querySelectorAll('.view-section');
+            views.forEach(view => {
+                view.classList.remove('active');
+            });
+            document.getElementById(viewId).classList.add('active');
+        }
+
+        // Questions and data
+        let questions = [
+            {
+                type: 'rating',
+                prompt: "How much do you enjoy solving logic puzzles and problems?",
+                likes_mapping: "Solving logic puzzles"
+            },
+            {
+                type: 'rating',
+                prompt: "How interested are you in creative and artistic projects?",
+                likes_mapping: "Working on creative projects"
+            },
+            {
+                type: 'rating',
+                prompt: "How much do you like working with large amounts of data and numbers?",
+                likes_mapping: "Analyzing large datasets"
+            },
+            {
+                type: 'rating',
+                prompt: "How interested are you in building or repairing physical things?",
+                likes_mapping: "Building and repairing things"
+            },
+            {
+                type: 'rating',
+                prompt: "How much do you enjoy leading teams and managing projects?",
+                likes_mapping: "Managing a team or project"
+            },
+            {
+                type: 'rating',
+                prompt: "How comfortable are you with public speaking and presentations?",
+                likes_mapping: "Public speaking"
+            },
+            {
+                type: 'rating',
+                prompt: "How much do you like helping people and providing customer service?",
+                likes_mapping: "Helping people"
+            },
+            {
+                type: 'rating',
+                prompt: "How much do you enjoy being outdoors and working in nature?",
+                likes_mapping: "Working outdoors"
+            },
+            {
+                type: 'rating',
+                prompt: "How interested are you in understanding how the human body works?",
+                likes_mapping: "Learning about the human body"
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        let answers = {};
+        let jobsData = [];
+        let finalRecommendations = [];
+
+        // Fetch the jobs database
+        async function fetchJobsDatabase() {
+            try {
+                const response = await fetch('jobsDatabase.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                jobsData = await response.json();
+                console.log('Jobs data loaded:', jobsData);
+            } catch (error) {
+                console.error("Could not load jobs database:", error);
+                showMessage("Failed to load career data. Please try again later.");
+            }
+        }
+
+        function populateQuestion() {
+            const container = document.getElementById('questions-container');
+            container.innerHTML = '';
+            if (currentQuestionIndex < questions.length) {
+                const q = questions[currentQuestionIndex];
+                const questionElement = document.createElement('div');
+                questionElement.className = 'question-card p-6 bg-gray-50 rounded-xl shadow-inner';
+                
+                let inputElement;
+                if (q.type === 'rating') {
+                    const savedValue = answers[q.likes_mapping] || 3;
+                    inputElement = `
+                        <p class="text-xl font-medium text-gray-700 mb-4">${q.prompt}</p>
+                        <div class="flex items-center justify-center space-x-2">
+                            <span class="text-gray-500">Not at all</span>
+                            <input type="range" id="q${currentQuestionIndex}" min="1" max="5" value="${savedValue}" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer range-lg">
+                            <span class="text-gray-500">Very much</span>
+                        </div>
+                    `;
+                }
+                
+                questionElement.innerHTML = inputElement;
+                container.appendChild(questionElement);
+                updateNavigationButtons();
+            } else {
+                showView('loading-view');
+                generateRecommendations();
+            }
+        }
+
+        function updateNavigationButtons() {
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+
+            if (currentQuestionIndex > 0) {
+                prevBtn.style.display = 'inline-block';
+            } else {
+                prevBtn.style.display = 'none';
+            }
+
+            if (currentQuestionIndex === questions.length - 1) {
+                nextBtn.textContent = 'See Results';
+            } else {
+                nextBtn.textContent = 'Next';
+            }
+        }
+
+        function collectAnswer() {
+            const q = questions[currentQuestionIndex];
+            if (q.type === 'rating') {
+                const input = document.getElementById(`q${currentQuestionIndex}`);
+                if (input) {
+                    answers[q.likes_mapping] = parseInt(input.value, 10);
+                }
+            }
+        }
+
+        function generateRecommendations() {
+            if (jobsData.length === 0) {
+                console.error("Jobs data is not loaded. Cannot generate recommendations.");
+                showMessage("Failed to generate recommendations. Please try reloading the page.");
+                showView('test-view'); // Go back to the test view
+                return;
+            }
+
+            // Calculate scores for each job based on user answers
+            const jobScores = jobsData.map(job => {
+                let score = 0;
+                let matchedInterests = [];
+                for (const interest in answers) {
+                    if (job["Things That The User Needs to like"].includes(interest)) {
+                        score += answers[interest];
+                        if (answers[interest] > 3) { // Only add interests with a positive score
+                            matchedInterests.push(interest);
+                        }
+                    }
+                }
+                return {
+                    name: job["Job Name"],
+                    skills: job["Skills Needed"],
+                    subjects: job["Things That the user must study to get this job"],
+                    score: score,
+                    matchedInterests: matchedInterests,
+                };
+            });
+
+            // Sort jobs by score in descending order
+            jobScores.sort((a, b) => b.score - a.score);
+
+            // Get top recommendations (e.g., top 3 or all with score > 0)
+            finalRecommendations = jobScores.filter(job => job.score > 0).slice(0, 3);
+            
+            displayResults(finalRecommendations);
+        }
+
+        function displayResults(recommendations) {
+            const container = document.getElementById('recommendations-container');
+            container.innerHTML = '';
+            if (recommendations.length > 0) {
+                recommendations.forEach(job => {
+                    const jobCard = document.createElement('div');
+                    jobCard.className = 'job-card bg-gray-50 p-6 rounded-xl shadow-md border-t-4 border-indigo-600';
+                    jobCard.innerHTML = `
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">${job.name}</h3>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-gray-700 mb-1">Based on your interests in:</h4>
+                            <ul class="list-disc list-inside text-gray-600">
+                                ${job.matchedInterests.map(i => `<li>${i}</li>`).join('')}
+                            </ul>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-gray-700 mb-1">Key Skills:</h4>
+                            <ul class="list-disc list-inside text-gray-600">
+                                ${job.skills.map(skill => `<li>${skill}</li>`).join('')}
+                            </ul>
+                        </div>
+                        ${job.subjects && job.subjects.length > 0 ? `
+                            <div>
+                                <h4 class="font-semibold text-gray-700 mb-1">Subjects to Study:</h4>
+                                <ul class="list-disc list-inside text-gray-600">
+                                    ${job.subjects.map(subject => `<li>${subject}</li>`).join('')}
+                                </ul>
+                            </div>
+                        ` : ''}
+                    `;
+                    container.appendChild(jobCard);
+                });
+            } else {
+                container.innerHTML = '<p class="text-center text-gray-600">No career recommendations found based on your answers. Try adjusting your preferences.</p>';
+            }
+            showView('results-view');
+        }
+
+        function resetTest() {
+            currentQuestionIndex = 0;
+            answers = {};
+            populateQuestion();
+        }
+        
+        function createPDF() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+            
+            doc.setFontSize(22);
+            doc.text("Career Recommendations", 20, 20);
+            
+            let y = 30;
+            
+            finalRecommendations.forEach((job, index) => {
+                doc.setFontSize(16);
+                doc.text(`${index + 1}. ${job.name}`, 20, y + 10);
+                y += 20;
+
+                doc.setFontSize(12);
+                doc.setFont("helvetica", "bold");
+                doc.text("Based on your interests in:", 25, y);
+                y += 8;
+                doc.setFont("helvetica", "normal");
+                job.matchedInterests.forEach(interest => {
+                    doc.text(`- ${interest}`, 30, y);
+                    y += 7;
+                });
+
+                y += 5;
+                doc.setFont("helvetica", "bold");
+                doc.text("Key Skills:", 25, y);
+                y += 8;
+                doc.setFont("helvetica", "normal");
+                job.skills.forEach(skill => {
+                    doc.text(`- ${skill}`, 30, y);
+                    y += 7;
+                });
+                
+                if (job.subjects && job.subjects.length > 0) {
+                    y += 5;
+                    doc.setFont("helvetica", "bold");
+                    doc.text("Subjects to Study:", 25, y);
+                    y += 8;
+                    doc.setFont("helvetica", "normal");
+                    job.subjects.forEach(subject => {
+                        doc.text(`- ${subject}`, 30, y);
+                        y += 7;
+                    });
+                }
+                
+                y += 10;
+            });
+            
+            doc.save("career_recommendations.pdf");
+        }
+
+
+        // Event listeners
+        document.getElementById('start-btn').addEventListener('click', () => {
+            showView('test-view');
+            resetTest();
+        });
+
+        document.getElementById('next-btn').addEventListener('click', () => {
+            collectAnswer();
+            currentQuestionIndex++;
+            populateQuestion();
+        });
+
+        document.getElementById('prev-btn').addEventListener('click', () => {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                populateQuestion();
+            }
+        });
+
+        document.getElementById('download-pdf-btn').addEventListener('click', createPDF);
+
+        document.getElementById('start-over-btn').addEventListener('click', () => {
+            resetTest();
+            showView('test-view');
+        });
+
+        // Initial setup
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchJobsDatabase().then(() => {
+                populateQuestion();
+            });
+            showView('welcome-view');
+        });
+    </script>
+</body>
+</html>

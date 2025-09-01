@@ -1,0 +1,2570 @@
+[
+    {
+        "Job Name": "Software Developer",
+        "Skills Needed": ["Programming languages (Python, JavaScript, Java)", "Problem-solving", "Data structures and algorithms", "Software testing", "Collaboration"],
+        "Things That The User Needs to like": ["Solving logic puzzles", "Building new things from scratch", "Tinkering with code", "Continuous learning"],
+        "Things That the user must study to get this job": ["Computer Science", "Mathematics", "Data Structures", "Software Engineering"]
+    },
+    {
+        "Job Name": "Data Scientist",
+        "Skills Needed": ["Statistics", "Machine learning", "SQL", "Python/R programming", "Data visualization"],
+        "Things That The User Needs to like": ["Analyzing large datasets", "Finding patterns in information", "Using numbers to tell a story", "Scientific research"],
+        "Things That the user must study to get this job": ["Statistics", "Computer Science", "Mathematics", "Linear Algebra"]
+    },
+    {
+        "Job Name": "Graphic Designer",
+        "Skills Needed": ["Adobe Creative Suite", "Typography", "Color theory", "Layout design", "Attention to detail"],
+        "Things That The User Needs to like": ["Sketching and drawing", "Creating visual concepts", "Working on creative projects", "Designing logos and websites"],
+        "Things That the user must study to get this job": ["Graphic Design", "Art and Illustration", "Digital Media", "Marketing"]
+    },
+    {
+        "Job Name": "Project Manager",
+        "Skills Needed": ["Communication", "Leadership", "Time management", "Budgeting", "Problem-solving"],
+        "Things That The User Needs to like": ["Organizing events and tasks", "Working with people", "Ensuring a project stays on track", "Delegating responsibilities"],
+        "Things That the user must study to get this job": ["Business Administration", "Project Management", "Communication Studies", "Organizational Behavior"]
+    },
+    {
+        "Job Name": "Registered Nurse",
+        "Skills Needed": ["Medical knowledge", "Patient care", "Critical thinking", "Compassion", "Communication"],
+        "Things That The User Needs to like": ["Helping people", "Working in a team", "Handling emergencies", "Making a positive impact on others' lives"],
+        "Things That the user must study to get this job": ["Anatomy and Physiology", "Biology", "Chemistry", "Nursing"]
+    },
+    {
+        "Job Name": "Financial Analyst",
+        "Skills Needed": ["Financial modeling", "Data analysis", "Attention to detail", "Market research", "Communication"],
+        "Things That The User Needs to like": ["Working with numbers", "Tracking investments", "Reading financial news", "Providing financial advice"],
+        "Things That the user must study to get this job": ["Finance", "Accounting", "Economics", "Statistics"]
+    },
+    {
+        "Job Name": "Marketing Manager",
+        "Skills Needed": ["Digital marketing", "Campaign management", "Content creation", "Market research", "Communication"],
+        "Things That The User Needs to like": ["Creativity and brainstorming", "Understanding consumer behavior", "Using social media", "Promoting products or services"],
+        "Things That the user must study to get this job": ["Marketing", "Communications", "Business Administration", "Psychology"]
+    },
+    {
+        "Job Name": "Electrician",
+        "Skills Needed": ["Electrical systems knowledge", "Problem-solving", "Manual dexterity", "Attention to safety", "Reading blueprints"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Physics", "Vocational Training (electrical)", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Teacher",
+        "Skills Needed": ["Patience", "Communication", "Classroom management", "Lesson planning", "Public speaking"],
+        "Things That The User Needs to like": ["Educating others", "Working with children or young adults", "Public speaking", "Continuous learning"],
+        "Things That the user must study to get this job": ["Education", "Subject-specific knowledge (e.g., History, English, Science)", "Psychology"]
+    },
+    {
+        "Job Name": "Web Developer",
+        "Skills Needed": ["HTML/CSS/JavaScript", "UI/UX principles", "Front-end frameworks (e.g., React, Vue)", "Back-end development (e.g., Node.js, Python)", "Problem-solving"],
+        "Things That The User Needs to like": ["Creating websites", "Designing user interfaces", "Solving coding problems", "Staying up-to-date with technology"],
+        "Things That the user must study to get this job": ["Computer Science", "Web Development", "User Interface Design"]
+    },
+    {
+        "Job Name": "Mechanical Engineer",
+        "Skills Needed": ["CAD software (e.g., SolidWorks)", "Thermodynamics", "Fluid mechanics", "Material science", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing machines and systems", "Analyzing how things work", "Building physical prototypes", "Math and physics"],
+        "Things That the user must study to get this job": ["Mechanical Engineering", "Physics", "Thermodynamics", "Mathematics"]
+    },
+    {
+        "Job Name": "Civil Engineer",
+        "Skills Needed": ["Structural analysis", "Project management", "GIS software", "Hydrology", "Building codes"],
+        "Things That The User Needs to like": ["Designing infrastructure like roads and bridges", "Working on large-scale projects", "Sustainability", "Community development"],
+        "Things That the user must study to get this job": ["Civil Engineering", "Structural Engineering", "Urban Planning", "Geology"]
+    },
+    {
+        "Job Name": "Chemist",
+        "Skills Needed": ["Laboratory techniques", "Analytical skills", "Safety protocols", "Data analysis", "Organic chemistry"],
+        "Things That The User Needs to like": ["Conducting experiments", "Mixing chemicals", "Researching new materials", "Discovering new substances"],
+        "Things That the user must study to get this job": ["Chemistry", "Biology", "Physics", "Mathematics"]
+    },
+    {
+        "Job Name": "Biologist",
+        "Skills Needed": ["Research methods", "Data collection", "Lab techniques", "Ecology", "Genetics"],
+        "Things That The User Needs to like": ["Studying living organisms", "Working in a lab or field", "Conservation", "Understanding ecosystems"],
+        "Things That the user must study to get this job": ["Biology", "Ecology", "Genetics", "Chemistry"]
+    },
+    {
+        "Job Name": "Architect",
+        "Skills Needed": ["Design software (e.g., AutoCAD)", "Spatial awareness", "Drawing and sketching", "Building materials knowledge", "Communication"],
+        "Things That The User Needs to like": ["Designing buildings", "Creating blueprints", "Art and design", "Urban planning"],
+        "Things That the user must study to get this job": ["Architecture", "Art History", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Journalist",
+        "Skills Needed": ["Writing and editing", "Research skills", "Interviewing", "Fact-checking", "Communication"],
+        "Things That The User Needs to like": ["Writing stories", "Investigating events", "Informing the public", "Current events"],
+        "Things That the user must study to get this job": ["Journalism", "English", "Political Science", "Communications"]
+    },
+    {
+        "Job Name": "Lawyer",
+        "Skills Needed": ["Legal research", "Argumentation", "Negotiation", "Writing skills", "Public speaking"],
+        "Things That The User Needs to like": ["Debating and arguing", "Reading and analyzing legal documents", "Helping people with legal issues", "Public justice"],
+        "Things That the user must study to get this job": ["Law", "Political Science", "History", "Logic"]
+    },
+    {
+        "Job Name": "Chef",
+        "Skills Needed": ["Cooking techniques", "Menu planning", "Food safety", "Creativity", "Teamwork"],
+        "Things That The User Needs to like": ["Cooking and baking", "Trying new recipes", "Working in a fast-paced environment", "Making people happy with food"],
+        "Things That the user must study to get this job": ["Culinary Arts", "Nutrition", "Food Science", "Hospitality Management"]
+    },
+    {
+        "Job Name": "Accountant",
+        "Skills Needed": ["Financial statements", "Tax law", "Attention to detail", "Spreadsheet software (e.g., Excel)", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with numbers", "Organizing financial data", "Budgeting", "Ensuring accuracy"],
+        "Things That the user must study to get this job": ["Accounting", "Finance", "Economics", "Business"]
+    },
+    {
+        "Job Name": "Human Resources Manager",
+        "Skills Needed": ["Interpersonal skills", "Conflict resolution", "Hiring and recruitment", "Employee relations", "Organizational skills"],
+        "Things That The User Needs to like": ["Working with people", "Resolving conflicts", "Helping employees", "Building a positive work environment"],
+        "Things That the user must study to get this job": ["Human Resources", "Psychology", "Business Administration", "Sociology"]
+    },
+    {
+        "Job Name": "Physical Therapist",
+        "Skills Needed": ["Anatomy and physiology", "Rehabilitation exercises", "Patient care", "Communication", "Empathy"],
+        "Things That The User Needs to like": ["Helping people recover from injuries", "Working one-on-one with patients", "Health and wellness", "Human anatomy"],
+        "Things That the user must study to get this job": ["Physical Therapy", "Biology", "Kinesiology", "Health Sciences"]
+    },
+    {
+        "Job Name": "Social Worker",
+        "Skills Needed": ["Empathy", "Active listening", "Crisis intervention", "Resource navigation", "Advocacy"],
+        "Things That The User Needs to like": ["Helping people in need", "Community service", "Advocating for social justice", "Working with diverse populations"],
+        "Things That the user must study to get this job": ["Social Work", "Sociology", "Psychology", "Public Health"]
+    },
+    {
+        "Job Name": "Aerospace Engineer",
+        "Skills Needed": ["Aerodynamics", "Propulsion systems", "Structural mechanics", "CAD software", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing aircraft and spacecraft", "Space exploration", "High-tech systems", "Math and physics"],
+        "Things That the user must study to get this job": ["Aerospace Engineering", "Physics", "Mathematics", "Mechanical Engineering"]
+    },
+    {
+        "Job Name": "Urban Planner",
+        "Skills Needed": ["GIS software", "Policy analysis", "Community engagement", "Spatial analysis", "Project management"],
+        "Things That The User Needs to like": ["Designing cities", "Improving communities", "Sustainability", "Community development"],
+        "Things That the user must study to get this job": ["Urban Planning", "Geography", "Public Policy", "Architecture"]
+    },
+    {
+        "Job Name": "Librarian",
+        "Skills Needed": ["Information organization", "Research skills", "Public speaking", "Customer service", "Digital literacy"],
+        "Things That The User Needs to like": ["Reading and research", "Helping people find information", "Organizing knowledge", "Working in a quiet environment"],
+        "Things That the user must study to get this job": ["Library Science", "Information Science", "History", "Literature"]
+    },
+    {
+        "Job Name": "Pharmacist",
+        "Skills Needed": ["Drug interactions", "Patient counseling", "Attention to detail", "Medical terminology", "Chemistry"],
+        "Things That The User Needs to like": ["Working with chemicals and medications", "Helping people with their health", "Customer service", "Healthcare"],
+        "Things That the user must study to get this job": ["Pharmacy", "Chemistry", "Biology", "Pharmacology"]
+    },
+    {
+        "Job Name": "Veterinarian",
+        "Skills Needed": ["Animal anatomy", "Medical procedures", "Diagnosis", "Empathy", "Communication"],
+        "Things That The User Needs to like": ["Working with animals", "Caring for pets", "Solving medical puzzles", "Helping animal owners"],
+        "Things That the user must study to get this job": ["Veterinary Medicine", "Biology", "Chemistry", "Anatomy"]
+    },
+    {
+        "Job Name": "Interior Designer",
+        "Skills Needed": ["Space planning", "Color theory", "Furniture selection", "CAD software", "Budgeting"],
+        "Things That The User Needs to like": ["Decorating rooms", "Choosing colors and furniture", "Creating comfortable spaces", "Art and design"],
+        "Things That the user must study to get this job": ["Interior Design", "Architecture", "Art History", "Design Principles"]
+    },
+    {
+        "Job Name": "Electrician",
+        "Skills Needed": ["Electrical systems knowledge", "Problem-solving", "Manual dexterity", "Attention to safety", "Reading blueprints"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Physics", "Vocational Training (electrical)", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Journalist",
+        "Skills Needed": ["Writing and editing", "Research skills", "Interviewing", "Fact-checking", "Communication"],
+        "Things That The User Needs to like": ["Writing stories", "Investigating events", "Informing the public", "Current events"],
+        "Things That the user must study to get this job": ["Journalism", "English", "Political Science", "Communications"]
+    },
+    {
+        "Job Name": "Lawyer",
+        "Skills Needed": ["Legal research", "Argumentation", "Negotiation", "Writing skills", "Public speaking"],
+        "Things That The User Needs to like": ["Debating and arguing", "Reading and analyzing legal documents", "Helping people with legal issues", "Public justice"],
+        "Things That the user must study to get this job": ["Law", "Political Science", "History", "Logic"]
+    },
+    {
+        "Job Name": "Chef",
+        "Skills Needed": ["Cooking techniques", "Menu planning", "Food safety", "Creativity", "Teamwork"],
+        "Things That The User Needs to like": ["Cooking and baking", "Trying new recipes", "Working in a fast-paced environment", "Making people happy with food"],
+        "Things That the user must study to get this job": ["Culinary Arts", "Nutrition", "Food Science", "Hospitality Management"]
+    },
+    {
+        "Job Name": "Accountant",
+        "Skills Needed": ["Financial statements", "Tax law", "Attention to detail", "Spreadsheet software (e.g., Excel)", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with numbers", "Organizing financial data", "Budgeting", "Ensuring accuracy"],
+        "Things That the user must study to get this job": ["Accounting", "Finance", "Economics", "Business"]
+    },
+    {
+        "Job Name": "Human Resources Manager",
+        "Skills Needed": ["Interpersonal skills", "Conflict resolution", "Hiring and recruitment", "Employee relations", "Organizational skills"],
+        "Things That The User Needs to like": ["Working with people", "Resolving conflicts", "Helping employees", "Building a positive work environment"],
+        "Things That the user must study to get this job": ["Human Resources", "Psychology", "Business Administration", "Sociology"]
+    },
+    {
+        "Job Name": "Physical Therapist",
+        "Skills Needed": ["Anatomy and physiology", "Rehabilitation exercises", "Patient care", "Communication", "Empathy"],
+        "Things That The User Needs to like": ["Helping people recover from injuries", "Working one-on-one with patients", "Health and wellness", "Human anatomy"],
+        "Things That the user must study to get this job": ["Physical Therapy", "Biology", "Kinesiology", "Health Sciences"]
+    },
+    {
+        "Job Name": "Social Worker",
+        "Skills Needed": ["Empathy", "Active listening", "Crisis intervention", "Resource navigation", "Advocacy"],
+        "Things That The User Needs to like": ["Helping people in need", "Community service", "Advocating for social justice", "Working with diverse populations"],
+        "Things That the user must study to get this job": ["Social Work", "Sociology", "Psychology", "Public Health"]
+    },
+    {
+        "Job Name": "Aerospace Engineer",
+        "Skills Needed": ["Aerodynamics", "Propulsion systems", "Structural mechanics", "CAD software", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing aircraft and spacecraft", "Space exploration", "High-tech systems", "Math and physics"],
+        "Things That the user must study to get this job": ["Aerospace Engineering", "Physics", "Mathematics", "Mechanical Engineering"]
+    },
+    {
+        "Job Name": "Urban Planner",
+        "Skills Needed": ["GIS software", "Policy analysis", "Community engagement", "Spatial analysis", "Project management"],
+        "Things That The User Needs to like": ["Designing cities", "Improving communities", "Sustainability", "Community development"],
+        "Things That the user must study to get this job": ["Urban Planning", "Geography", "Public Policy", "Architecture"]
+    },
+    {
+        "Job Name": "Librarian",
+        "Skills Needed": ["Information organization", "Research skills", "Public speaking", "Customer service", "Digital literacy"],
+        "Things That The User Needs to like": ["Reading and research", "Helping people find information", "Organizing knowledge", "Working in a quiet environment"],
+        "Things That the user must study to get this job": ["Library Science", "Information Science", "History", "Literature"]
+    },
+    {
+        "Job Name": "Pharmacist",
+        "Skills Needed": ["Drug interactions", "Patient counseling", "Attention to detail", "Medical terminology", "Chemistry"],
+        "Things That The User Needs to like": ["Working with chemicals and medications", "Helping people with their health", "Customer service", "Healthcare"],
+        "Things That the user must study to get this job": ["Pharmacy", "Chemistry", "Biology", "Pharmacology"]
+    },
+    {
+        "Job Name": "Veterinarian",
+        "Skills Needed": ["Animal anatomy", "Medical procedures", "Diagnosis", "Empathy", "Communication"],
+        "Things That The User Needs to like": ["Working with animals", "Caring for pets", "Solving medical puzzles", "Helping animal owners"],
+        "Things That the user must study to get this job": ["Veterinary Medicine", "Biology", "Chemistry", "Anatomy"]
+    },
+    {
+        "Job Name": "Interior Designer",
+        "Skills Needed": ["Space planning", "Color theory", "Furniture selection", "CAD software", "Budgeting"],
+        "Things That The User Needs to like": ["Decorating rooms", "Choosing colors and furniture", "Creating comfortable spaces", "Art and design"],
+        "Things That the user must study to get this job": ["Interior Design", "Architecture", "Art History", "Design Principles"]
+    },
+    {
+        "Job Name": "Physician Assistant",
+        "Skills Needed": ["Medical diagnosis", "Patient care", "Communication", "Critical thinking", "Teamwork"],
+        "Things That The User Needs to like": ["Working in a hospital or clinic", "Helping doctors with patient care", "Solving medical mysteries", "Making a direct impact on people's health"],
+        "Things That the user must study to get this job": ["Physician Assistant Studies", "Biology", "Chemistry", "Anatomy and Physiology"]
+    },
+    {
+        "Job Name": "Physical Therapist Assistant",
+        "Skills Needed": ["Rehabilitation exercises", "Patient care", "Communication", "Empathy", "Attention to detail"],
+        "Things That The User Needs to like": ["Helping people recover from injuries", "Working one-on-one with patients", "Health and wellness", "Human anatomy"],
+        "Things That the user must study to get this job": ["Physical Therapy Assistant Program", "Biology", "Kinesiology", "Health Sciences"]
+    },
+    {
+        "Job Name": "Occupational Therapist",
+        "Skills Needed": ["Therapeutic techniques", "Patient care", "Empathy", "Problem-solving", "Creativity"],
+        "Things That The User Needs to like": ["Helping people with daily tasks", "Working with patients to regain independence", "Creative problem-solving", "Healthcare"],
+        "Things That the user must study to get this job": ["Occupational Therapy", "Psychology", "Kinesiology", "Health Sciences"]
+    },
+    {
+        "Job Name": "Dentist",
+        "Skills Needed": ["Oral anatomy", "Medical procedures", "Patient care", "Attention to detail", "Communication"],
+        "Things That The User Needs to like": ["Working with your hands", "Helping people with oral health", "Solving medical puzzles", "Working in a clinic"],
+        "Things That the user must study to get this job": ["Dentistry", "Biology", "Chemistry", "Anatomy"]
+    },
+    {
+        "Job Name": "Registered Dietitian",
+        "Skills Needed": ["Nutrition science", "Meal planning", "Patient counseling", "Communication", "Empathy"],
+        "Things That The User Needs to like": ["Helping people with their diet and health", "Cooking and food science", "Educating others", "Wellness"],
+        "Things That the user must study to get this job": ["Dietetics", "Nutrition Science", "Biology", "Chemistry"]
+    },
+    {
+        "Job Name": "Counselor",
+        "Skills Needed": ["Active listening", "Empathy", "Problem-solving", "Confidentiality", "Communication"],
+        "Things That The User Needs to like": ["Helping people with their emotions", "Listening to others' problems", "Providing guidance", "Mental health"],
+        "Things That the user must study to get this job": ["Psychology", "Counseling", "Social Work", "Sociology"]
+    },
+    {
+        "Job Name": "Speech-Language Pathologist",
+        "Skills Needed": ["Anatomy of speech", "Diagnosis", "Therapeutic techniques", "Patience", "Communication"],
+        "Things That The User Needs to like": ["Helping people with communication difficulties", "Working with children or adults", "Problem-solving", "Making a positive impact on people's lives"],
+        "Things That the user must study to get this job": ["Speech-Language Pathology", "Linguistics", "Anatomy", "Psychology"]
+    },
+    {
+        "Job Name": "School Psychologist",
+        "Skills Needed": ["Child development", "Assessment skills", "Intervention strategies", "Communication", "Empathy"],
+        "Things That The User Needs to like": ["Working with children", "Helping students with academic or emotional issues", "Providing guidance", "Mental health"],
+        "Things That the user must study to get this job": ["School Psychology", "Educational Psychology", "Child Development", "Counseling"]
+    },
+    {
+        "Job Name": "Art Therapist",
+        "Skills Needed": ["Artistic skills", "Psychology", "Empathy", "Therapeutic techniques", "Communication"],
+        "Things That The User Needs to like": ["Using art to help people", "Working with people's emotions", "Creative expression", "Mental health"],
+        "Things That the user must study to get this job": ["Art Therapy", "Psychology", "Fine Arts", "Human Development"]
+    },
+    {
+        "Job Name": "Music Therapist",
+        "Skills Needed": ["Musical skills", "Psychology", "Empathy", "Therapeutic techniques", "Communication"],
+        "Things That The User Needs to like": ["Using music to help people", "Working with people's emotions", "Creative expression", "Mental health"],
+        "Things That the user must study to get this job": ["Music Therapy", "Music", "Psychology", "Human Development"]
+    },
+    {
+        "Job Name": "Athletic Trainer",
+        "Skills Needed": ["Sports medicine", "Rehabilitation exercises", "Injury prevention", "Patient care", "Communication"],
+        "Things That The User Needs to like": ["Working with athletes", "Helping people with sports injuries", "Health and wellness", "Human anatomy"],
+        "Things That the user must study to get this job": ["Athletic Training", "Kinesiology", "Anatomy", "Sports Medicine"]
+    },
+    {
+        "Job Name": "Data Analyst",
+        "Skills Needed": ["SQL", "Data visualization", "Spreadsheet software (e.g., Excel)", "Statistics", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with data", "Finding patterns in information", "Using numbers to tell a story", "Business analytics"],
+        "Things That the user must study to get this job": ["Data Analytics", "Statistics", "Business", "Mathematics"]
+    },
+    {
+        "Job Name": "Operations Manager",
+        "Skills Needed": ["Organizational skills", "Project management", "Problem-solving", "Team leadership", "Budgeting"],
+        "Things That The User Needs to like": ["Managing a team", "Optimizing processes", "Ensuring efficiency", "Strategic planning"],
+        "Things That the user must study to get this job": ["Business Administration", "Operations Management", "Supply Chain Management", "Logistics"]
+    },
+    {
+        "Job Name": "Supply Chain Manager",
+        "Skills Needed": ["Logistics", "Inventory management", "Negotiation", "Problem-solving", "Data analysis"],
+        "Things That The User Needs to like": ["Organizing complex systems", "Improving efficiency", "Working with numbers and data", "Strategic planning"],
+        "Things That the user must study to get this job": ["Supply Chain Management", "Logistics", "Business Administration", "Economics"]
+    },
+    {
+        "Job Name": "Public Relations Specialist",
+        "Skills Needed": ["Writing and editing", "Communication", "Media relations", "Crisis management", "Strategic planning"],
+        "Things That The User Needs to like": ["Communicating with the public", "Managing a company's image", "Working with the media", "Writing press releases"],
+        "Things That the user must study to get this job": ["Public Relations", "Communications", "Marketing", "Journalism"]
+    },
+    {
+        "Job Name": "Event Planner",
+        "Skills Needed": ["Organizational skills", "Budgeting", "Vendor management", "Communication", "Problem-solving"],
+        "Things That The User Needs to like": ["Planning parties and events", "Working with people", "Bringing ideas to life", "Attention to detail"],
+        "Things That the user must study to get this job": ["Event Planning", "Hospitality Management", "Business Administration", "Marketing"]
+    },
+    {
+        "Job Name": "Real Estate Agent",
+        "Skills Needed": ["Sales skills", "Negotiation", "Communication", "Market knowledge", "Customer service"],
+        "Things That The User Needs to like": ["Working with people", "Helping people find homes", "Showing properties", "Sales and negotiation"],
+        "Things That the user must study to get this job": ["Real Estate Licensing", "Sales", "Marketing", "Business"]
+    },
+    {
+        "Job Name": "Insurance Agent",
+        "Skills Needed": ["Sales skills", "Communication", "Negotiation", "Risk management", "Customer service"],
+        "Things That The User Needs to like": ["Working with people", "Helping people with insurance", "Sales and negotiation", "Financial planning"],
+        "Things That the user must study to get this job": ["Insurance Licensing", "Finance", "Business", "Risk Management"]
+    },
+    {
+        "Job Name": "Financial Advisor",
+        "Skills Needed": ["Financial planning", "Investment knowledge", "Communication", "Client relations", "Sales skills"],
+        "Things That The User Needs to like": ["Helping people with their money", "Investing and saving", "Financial planning", "Working with clients"],
+        "Things That the user must study to get this job": ["Finance", "Economics", "Financial Planning", "Business"]
+    },
+    {
+        "Job Name": "Bank Teller",
+        "Skills Needed": ["Customer service", "Cash handling", "Attention to detail", "Communication", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with people", "Handling money", "Customer service", "Working in a bank"],
+        "Things That the user must study to get this job": ["Business", "Finance", "Mathematics", "Customer Service"]
+    },
+    {
+        "Job Name": "Personal Trainer",
+        "Skills Needed": ["Exercise science", "Nutrition knowledge", "Motivation", "Communication", "Client relations"],
+        "Things That The User Needs to like": ["Working out", "Helping people with their fitness goals", "Health and wellness", "Motivation"],
+        "Things That the user must study to get this job": ["Kinesiology", "Exercise Science", "Nutrition", "Personal Training Certification"]
+    },
+    {
+        "Job Name": "Chef",
+        "Skills Needed": ["Cooking techniques", "Menu planning", "Food safety", "Creativity", "Teamwork"],
+        "Things That The User Needs to like": ["Cooking and baking", "Trying new recipes", "Working in a fast-paced environment", "Making people happy with food"],
+        "Things That the user must study to get this job": ["Culinary Arts", "Nutrition", "Food Science", "Hospitality Management"]
+    },
+    {
+        "Job Name": "Photographer",
+        "Skills Needed": ["Composition", "Lighting", "Editing software (e.g., Photoshop)", "Creativity", "Communication"],
+        "Things That The User Needs to like": ["Taking pictures", "Editing photos", "Working with a camera", "Creative expression"],
+        "Things That the user must study to get this job": ["Photography", "Digital Media", "Art", "Communications"]
+    },
+    {
+        "Job Name": "Videographer",
+        "Skills Needed": ["Filming techniques", "Video editing software (e.g., Premiere Pro)", "Storytelling", "Lighting", "Audio production"],
+        "Things That The User Needs to like": ["Making videos", "Editing film", "Creative expression", "Storytelling"],
+        "Things That the user must study to get this job": ["Film Studies", "Digital Media", "Communications", "Video Production"]
+    },
+    {
+        "Job Name": "Animator",
+        "Skills Needed": ["Animation software (e.g., After Effects)", "Drawing skills", "Storytelling", "Creativity", "Attention to detail"],
+        "Things That The User Needs to like": ["Drawing cartoons and characters", "Bringing stories to life", "Working on creative projects", "Animation"],
+        "Things That the user must study to get this job": ["Animation", "Art", "Digital Media", "Storytelling"]
+    },
+    {
+        "Job Name": "Illustrator",
+        "Skills Needed": ["Drawing skills", "Digital art software", "Creativity", "Color theory", "Attention to detail"],
+        "Things That The User Needs to like": ["Drawing and sketching", "Creating visual concepts", "Working on creative projects", "Designing characters and scenes"],
+        "Things That the user must study to get this job": ["Illustration", "Art", "Design", "Digital Media"]
+    },
+    {
+        "Job Name": "Writer",
+        "Skills Needed": ["Writing and editing", "Research skills", "Storytelling", "Grammar", "Creativity"],
+        "Things That The User Needs to like": ["Writing stories and articles", "Creative expression", "Research", "Reading"],
+        "Things That the user must study to get this job": ["English", "Creative Writing", "Journalism", "Literature"]
+    },
+    {
+        "Job Name": "Editor",
+        "Skills Needed": ["Editing and proofreading", "Grammar", "Attention to detail", "Communication", "Organizational skills"],
+        "Things That The User Needs to like": ["Reading and editing documents", "Improving writing", "Ensuring accuracy", "Working on a team"],
+        "Things That the user must study to get this job": ["English", "Communications", "Journalism", "Literature"]
+    },
+    {
+        "Job Name": "Translator",
+        "Skills Needed": ["Fluency in multiple languages", "Cultural knowledge", "Attention to detail", "Writing skills", "Research skills"],
+        "Things That The User Needs to like": ["Learning new languages", "Communicating with people from different cultures", "Translating documents", "Reading and research"],
+        "Things That the user must study to get this job": ["Linguistics", "Foreign Languages", "Cultural Studies", "Translation"]
+    },
+    {
+        "Job Name": "Pilot",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Flying planes", "Traveling to new places", "Working in a high-tech environment", "Following strict procedures"],
+        "Things That the user must study to get this job": ["Aviation", "Physics", "Mathematics", "Aeronautical Science"]
+    },
+    {
+        "Job Name": "Flight Attendant",
+        "Skills Needed": ["Customer service", "Communication", "Safety protocols", "Problem-solving", "Empathy"],
+        "Things That The User Needs to like": ["Working with people", "Traveling to new places", "Providing excellent service", "Working on a team"],
+        "Things That the user must study to get this job": ["Hospitality Management", "Communications", "Customer Service"]
+    },
+    {
+        "Job Name": "Travel Agent",
+        "Skills Needed": ["Customer service", "Organizational skills", "Communication", "Geographic knowledge", "Sales skills"],
+        "Things That The User Needs to like": ["Planning trips", "Traveling to new places", "Working with people", "Helping others plan their vacations"],
+        "Things That the user must study to get this job": ["Tourism", "Hospitality Management", "Geography", "Sales"]
+    },
+    {
+        "Job Name": "Tour Guide",
+        "Skills Needed": ["Public speaking", "Storytelling", "Historical knowledge", "Communication", "Patience"],
+        "Things That The User Needs to like": ["Talking to people", "Sharing information", "History and culture", "Leading groups"],
+        "Things That the user must study to get this job": ["History", "Cultural Studies", "Communications", "Public Speaking"]
+    },
+    {
+        "Job Name": "Park Ranger",
+        "Skills Needed": ["First aid", "Outdoor skills", "Public speaking", "Environmental knowledge", "Communication"],
+        "Things That The User Needs to like": ["Working outdoors", "Nature and wildlife", "Helping people in national parks", "Environmental conservation"],
+        "Things That the user must study to get this job": ["Environmental Science", "Forestry", "Biology", "Criminal Justice"]
+    },
+    {
+        "Job Name": "Forester",
+        "Skills Needed": ["Forest management", "Ecology", "Data analysis", "Problem-solving", "Physical fitness"],
+        "Things That The User Needs to like": ["Working outdoors", "Nature and wildlife", "Forest conservation", "Physical labor"],
+        "Things That the user must study to get this job": ["Forestry", "Ecology", "Biology", "Environmental Science"]
+    },
+    {
+        "Job Name": "Marine Biologist",
+        "Skills Needed": ["Ecology", "Research methods", "Data collection", "SCUBA diving", "Water safety"],
+        "Things That The User Needs to like": ["Studying marine life", "Working underwater", "Ocean conservation", "Scientific research"],
+        "Things That the user must study to get this job": ["Marine Biology", "Oceanography", "Biology", "Ecology"]
+    },
+    {
+        "Job Name": "Geologist",
+        "Skills Needed": ["Geological analysis", "Fieldwork", "Data collection", "Spatial analysis", "Problem-solving"],
+        "Things That The User Needs to like": ["Studying rocks and minerals", "Working outdoors", "Earth science", "Finding patterns in the earth"],
+        "Things That the user must study to get this job": ["Geology", "Earth Science", "Physics", "Chemistry"]
+    },
+    {
+        "Job Name": "Hydrologist",
+        "Skills Needed": ["Water resource management", "GIS software", "Data analysis", "Problem-solving", "Fieldwork"],
+        "Things That The User Needs to like": ["Studying water systems", "Environmental science", "Protecting water resources", "Working outdoors"],
+        "Things That the user must study to get this job": ["Hydrology", "Environmental Science", "Geology", "Civil Engineering"]
+    },
+    {
+        "Job Name": "Meteorologist",
+        "Skills Needed": ["Atmospheric science", "Data analysis", "Forecasting models", "Communication", "Problem-solving"],
+        "Things That The User Needs to like": ["Studying the weather", "Predicting storms", "Working with data", "Physics and math"],
+        "Things That the user must study to get this job": ["Meteorology", "Physics", "Mathematics", "Climatology"]
+    },
+    {
+        "Job Name": "Astronomer",
+        "Skills Needed": ["Astrophysics", "Telescopes", "Data analysis", "Mathematics", "Physics"],
+        "Things That The User Needs to like": ["Studying the stars and planets", "Space exploration", "High-tech systems", "Math and physics"],
+        "Things That the user must study to get this job": ["Astronomy", "Astrophysics", "Physics", "Mathematics"]
+    },
+    {
+        "Job Name": "Museum Curator",
+        "Skills Needed": ["Art history", "Research skills", "Exhibit design", "Communication", "Organizational skills"],
+        "Things That The User Needs to like": ["Studying art and artifacts", "Organizing exhibitions", "History and culture", "Research and writing"],
+        "Things That the user must study to get this job": ["Art History", "Museum Studies", "History", "Anthropology"]
+    },
+    {
+        "Job Name": "Archaeologist",
+        "Skills Needed": ["Research skills", "Fieldwork", "Data collection", "Historical knowledge", "Attention to detail"],
+        "Things That The User Needs to like": ["Digging for artifacts", "Studying ancient civilizations", "History and culture", "Problem-solving"],
+        "Things That the user must study to get this job": ["Archaeology", "Anthropology", "History", "Geology"]
+    },
+    {
+        "Job Name": "Historian",
+        "Skills Needed": ["Research skills", "Writing and editing", "Critical thinking", "Data analysis", "Communication"],
+        "Things That The User Needs to like": ["Studying the past", "Researching historical events", "Writing books and articles", "Finding patterns in history"],
+        "Things That the user must study to get this job": ["History", "Political Science", "Literature", "Sociology"]
+    },
+    {
+        "Job Name": "Professor",
+        "Skills Needed": ["Subject-matter expertise", "Public speaking", "Research skills", "Writing and editing", "Mentoring"],
+        "Things That The User Needs to like": ["Teaching and mentoring students", "Researching a specific topic", "Writing articles and books", "Continuous learning"],
+        "Things That the user must study to get this job": ["Subject-specific PhD", "Research Methodology", "Public Speaking", "Writing"]
+    },
+    {
+        "Job Name": "Technical Writer",
+        "Skills Needed": ["Writing and editing", "Attention to detail", "Technical knowledge", "Communication", "Research skills"],
+        "Things That The User Needs to like": ["Writing clear instructions", "Communicating complex information", "Technical subjects", "Problem-solving"],
+        "Things That the user must study to get this job": ["Technical Writing", "Computer Science", "Engineering", "Communications"]
+    },
+    {
+        "Job Name": "Speechwriter",
+        "Skills Needed": ["Writing and editing", "Public speaking", "Storytelling", "Political knowledge", "Communication"],
+        "Things That The User Needs to like": ["Writing speeches for others", "Public speaking", "Political science", "Creative expression"],
+        "Things That the user must study to get this job": ["Communications", "Political Science", "Journalism", "English"]
+    },
+    {
+        "Job Name": "Copywriter",
+        "Skills Needed": ["Writing and editing", "Marketing knowledge", "Creativity", "Persuasion", "Communication"],
+        "Things That The User Needs to like": ["Writing advertisements", "Creative expression", "Marketing and sales", "Working with a team"],
+        "Things That the user must study to get this job": ["Marketing", "Communications", "English", "Psychology"]
+    },
+    {
+        "Job Name": "Grant Writer",
+        "Skills Needed": ["Writing and editing", "Research skills", "Fundraising knowledge", "Attention to detail", "Communication"],
+        "Things That The User Needs to like": ["Writing proposals", "Fundraising for non-profits", "Research", "Helping others"],
+        "Things That the user must study to get this job": ["Non-profit Management", "Writing", "Communications", "Business Administration"]
+    },
+    {
+        "Job Name": "Graphic Novelist",
+        "Skills Needed": ["Drawing skills", "Storytelling", "Writing and editing", "Creativity", "Attention to detail"],
+        "Things That The User Needs to like": ["Drawing comics", "Writing stories", "Creative expression", "Working on long-term projects"],
+        "Things That the user must study to get this job": ["Illustration", "Creative Writing", "Graphic Design", "Storytelling"]
+    },
+    {
+        "Job Name": "Children's Book Author",
+        "Skills Needed": ["Writing and editing", "Storytelling", "Creativity", "Illustration skills", "Patience"],
+        "Things That The User Needs to like": ["Writing for children", "Creative expression", "Storytelling", "Working with children"],
+        "Things That the user must study to get this job": ["Creative Writing", "Children's Literature", "Illustration", "Education"]
+    },
+    {
+        "Job Name": "Poet",
+        "Skills Needed": ["Creative writing", "Metaphorical thinking", "Storytelling", "Grammar", "Language skills"],
+        "Things That The User Needs to like": ["Writing poetry", "Creative expression", "Playing with language", "Reading and analysis"],
+        "Things That the user must study to get this job": ["Creative Writing", "Literature", "Language Arts"]
+    },
+    {
+        "Job Name": "Screenwriter",
+        "Skills Needed": ["Storytelling", "Dialogue writing", "Formatting", "Creativity", "Collaboration"],
+        "Things That The User Needs to like": ["Writing for film or TV", "Creating characters and stories", "Working on a team", "Watching movies and TV shows"],
+        "Things That the user must study to get this job": ["Screenwriting", "Film Studies", "Creative Writing", "Drama"]
+    },
+    {
+        "Job Name": "Playwright",
+        "Skills Needed": ["Storytelling", "Dialogue writing", "Character development", "Creativity", "Collaboration"],
+        "Things That The User Needs to like": ["Writing for the stage", "Creating plays", "Working with actors", "Theater"],
+        "Things That the user must study to get this job": ["Playwriting", "Drama", "Creative Writing", "Theater Arts"]
+    },
+    {
+        "Job Name": "Journalist",
+        "Skills Needed": ["Writing and editing", "Research skills", "Interviewing", "Fact-checking", "Communication"],
+        "Things That The User Needs to like": ["Writing stories", "Investigating events", "Informing the public", "Current events"],
+        "Things That the user must study to get this job": ["Journalism", "English", "Political Science", "Communications"]
+    },
+    {
+        "Job Name": "Editor",
+        "Skills Needed": ["Editing and proofreading", "Grammar", "Attention to detail", "Communication", "Organizational skills"],
+        "Things That The User Needs to like": ["Reading and editing documents", "Improving writing", "Ensuring accuracy", "Working on a team"],
+        "Things That the user must study to get this job": ["English", "Communications", "Journalism", "Literature"]
+    },
+    {
+        "Job Name": "Translator",
+        "Skills Needed": ["Fluency in multiple languages", "Cultural knowledge", "Attention to detail", "Writing skills", "Research skills"],
+        "Things That The User Needs to like": ["Learning new languages", "Communicating with people from different cultures", "Translating documents", "Reading and research"],
+        "Things That the user must study to get this job": ["Linguistics", "Foreign Languages", "Cultural Studies", "Translation"]
+    },
+    {
+        "Job Name": "Librarian",
+        "Skills Needed": ["Information organization", "Research skills", "Public speaking", "Customer service", "Digital literacy"],
+        "Things That The User Needs to like": ["Reading and research", "Helping people find information", "Organizing knowledge", "Working in a quiet environment"],
+        "Things That the user must study to get this job": ["Library Science", "Information Science", "History", "Literature"]
+    },
+    {
+        "Job Name": "Archivist",
+        "Skills Needed": ["Information organization", "Research skills", "Data preservation", "Attention to detail", "Historical knowledge"],
+        "Things That The User Needs to like": ["Preserving historical documents", "Organizing archives", "History and culture", "Research and analysis"],
+        "Things That the user must study to get this job": ["Archival Studies", "History", "Information Science", "Library Science"]
+    },
+    {
+        "Job Name": "Museum Curator",
+        "Skills Needed": ["Art history", "Research skills", "Exhibit design", "Communication", "Organizational skills"],
+        "Things That The User Needs to like": ["Studying art and artifacts", "Organizing exhibitions", "History and culture", "Research and writing"],
+        "Things That the user must study to get this job": ["Art History", "Museum Studies", "History", "Anthropology"]
+    },
+    {
+        "Job Name": "Genealogist",
+        "Skills Needed": ["Research skills", "Historical knowledge", "Data analysis", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Family history research", "Solving puzzles", "History and genealogy", "Helping people find their roots"],
+        "Things That the user must study to get this job": ["Genealogy", "History", "Research Methodology", "Data Analysis"]
+    },
+    {
+        "Job Name": "Historian",
+        "Skills Needed": ["Research skills", "Writing and editing", "Critical thinking", "Data analysis", "Communication"],
+        "Things That The User Needs to like": ["Studying the past", "Researching historical events", "Writing books and articles", "Finding patterns in history"],
+        "Things That the user must study to get this job": ["History", "Political Science", "Literature", "Sociology"]
+    },
+    {
+        "Job Name": "Archaeologist",
+        "Skills Needed": ["Research skills", "Fieldwork", "Data collection", "Historical knowledge", "Attention to detail"],
+        "Things That The User Needs to like": ["Digging for artifacts", "Studying ancient civilizations", "History and culture", "Problem-solving"],
+        "Things That the user must study to get this job": ["Archaeology", "Anthropology", "History", "Geology"]
+    },
+    {
+        "Job Name": "Anthropologist",
+        "Skills Needed": ["Research methods", "Cultural analysis", "Fieldwork", "Writing and editing", "Empathy"],
+        "Things That The User Needs to like": ["Studying human cultures", "Working with diverse populations", "Research", "Understanding human behavior"],
+        "Things That the user must study to get this job": ["Anthropology", "Sociology", "Cultural Studies", "History"]
+    },
+    {
+        "Job Name": "Sociologist",
+        "Skills Needed": ["Research methods", "Statistical analysis", "Data collection", "Critical thinking", "Writing skills"],
+        "Things That The User Needs to like": ["Studying social groups and behavior", "Analyzing data", "Research", "Understanding society"],
+        "Things That the user must study to get this job": ["Sociology", "Statistics", "Research Methodology", "Psychology"]
+    },
+    {
+        "Job Name": "Political Scientist",
+        "Skills Needed": ["Political analysis", "Research methods", "Data analysis", "Writing skills", "Public speaking"],
+        "Things That The User Needs to like": ["Studying politics and government", "Analyzing political systems", "Current events", "Debating"],
+        "Things That the user must study to get this job": ["Political Science", "History", "Economics", "Sociology"]
+    },
+    {
+        "Job Name": "Economist",
+        "Skills Needed": ["Economic theory", "Statistical analysis", "Data analysis", "Problem-solving", "Forecasting"],
+        "Things That The User Needs to like": ["Studying the economy", "Analyzing market trends", "Working with numbers and data", "Research"],
+        "Things That the user must study to get this job": ["Economics", "Statistics", "Mathematics", "Finance"]
+    },
+    {
+        "Job Name": "Market Research Analyst",
+        "Skills Needed": ["Data analysis", "Survey design", "Statistical software (e.g., SPSS)", "Communication", "Problem-solving"],
+        "Things That The User Needs to like": ["Analyzing consumer behavior", "Collecting data", "Finding patterns in information", "Helping businesses"],
+        "Things That the user must study to get this job": ["Marketing", "Statistics", "Business Administration", "Psychology"]
+    },
+    {
+        "Job Name": "Management Consultant",
+        "Skills Needed": ["Problem-solving", "Strategic planning", "Data analysis", "Communication", "Team leadership"],
+        "Things That The User Needs to like": ["Solving business problems", "Working with different companies", "Strategic thinking", "Travel"],
+        "Things That the user must study to get this job": ["Business Administration", "Economics", "Finance", "Strategy"]
+    },
+    {
+        "Job Name": "Financial Manager",
+        "Skills Needed": ["Financial planning", "Budgeting", "Risk management", "Leadership", "Data analysis"],
+        "Things That The User Needs to like": ["Managing money", "Financial forecasting", "Strategic planning", "Working with a team"],
+        "Things That the user must study to get this job": ["Finance", "Accounting", "Business Administration", "Economics"]
+    },
+    {
+        "Job Name": "Actuary",
+        "Skills Needed": ["Statistical analysis", "Financial modeling", "Risk assessment", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Working with numbers", "Assessing risk", "Mathematics and statistics", "Solving complex problems"],
+        "Things That the user must study to get this job": ["Actuarial Science", "Statistics", "Mathematics", "Finance"]
+    },
+    {
+        "Job Name": "Forensic Accountant",
+        "Skills Needed": ["Accounting principles", "Fraud detection", "Legal knowledge", "Attention to detail", "Problem-solving"],
+        "Things That The User Needs to like": ["Investigating financial crimes", "Working with numbers and data", "Solving puzzles", "Working with law enforcement"],
+        "Things That the user must study to get this job": ["Forensic Accounting", "Accounting", "Criminology", "Law"]
+    },
+    {
+        "Job Name": "Auditor",
+        "Skills Needed": ["Accounting principles", "Attention to detail", "Data analysis", "Compliance knowledge", "Problem-solving"],
+        "Things That The User Needs to like": ["Ensuring financial accuracy", "Working with numbers", "Finding errors", "Following procedures"],
+        "Things That the user must study to get this job": ["Accounting", "Finance", "Business Administration", "Auditing"]
+    },
+    {
+        "Job Name": "Tax Preparer",
+        "Skills Needed": ["Tax law", "Attention to detail", "Problem-solving", "Communication", "Customer service"],
+        "Things That The User Needs to like": ["Working with numbers", "Helping people with their taxes", "Following rules and regulations", "Attention to detail"],
+        "Things That the user must study to get this job": ["Accounting", "Tax Law", "Finance", "Business"]
+    },
+    {
+        "Job Name": "Economist",
+        "Skills Needed": ["Economic theory", "Statistical analysis", "Data analysis", "Problem-solving", "Forecasting"],
+        "Things That The User Needs to like": ["Studying the economy", "Analyzing market trends", "Working with numbers and data", "Research"],
+        "Things That the user must study to get this job": ["Economics", "Statistics", "Mathematics", "Finance"]
+    },
+    {
+        "Job Name": "Sales Manager",
+        "Skills Needed": ["Sales techniques", "Leadership", "Communication", "Problem-solving", "Team management"],
+        "Things That The User Needs to like": ["Leading a team", "Setting sales goals", "Meeting new people", "Sales and negotiation"],
+        "Things That the user must study to get this job": ["Sales", "Business Administration", "Marketing", "Communications"]
+    },
+    {
+        "Job Name": "Customer Service Manager",
+        "Skills Needed": ["Customer service", "Conflict resolution", "Team management", "Communication", "Problem-solving"],
+        "Things That The User Needs to like": ["Helping customers", "Solving problems", "Managing a team", "Providing excellent service"],
+        "Things That the user must study to get this job": ["Customer Service", "Business Administration", "Communications", "Psychology"]
+    },
+    {
+        "Job Name": "Retail Manager",
+        "Skills Needed": ["Customer service", "Inventory management", "Sales skills", "Team leadership", "Budgeting"],
+        "Things That The User Needs to like": ["Working in a store", "Managing a team", "Helping customers", "Sales"],
+        "Things That the user must study to get this job": ["Retail Management", "Business Administration", "Marketing", "Sales"]
+    },
+    {
+        "Job Name": "Marketing Analyst",
+        "Skills Needed": ["Data analysis", "Statistical software (e.g., SPSS)", "Market research", "Communication", "Problem-solving"],
+        "Things That The User Needs to like": ["Analyzing marketing campaigns", "Working with data", "Finding patterns in information", "Helping businesses"],
+        "Things That the user must study to get this job": ["Marketing", "Statistics", "Business Administration", "Data Analytics"]
+    },
+    {
+        "Job Name": "Public Relations Manager",
+        "Skills Needed": ["Writing and editing", "Communication", "Media relations", "Crisis management", "Strategic planning"],
+        "Things That The User Needs to like": ["Managing a company's image", "Working with the media", "Writing press releases", "Strategic planning"],
+        "Things That the user must study to get this job": ["Public Relations", "Communications", "Marketing", "Journalism"]
+    },
+    {
+        "Job Name": "Advertising Manager",
+        "Skills Needed": ["Advertising techniques", "Campaign management", "Creativity", "Communication", "Budgeting"],
+        "Things That The User Needs to like": ["Creating advertisements", "Working with a team", "Creative expression", "Marketing"],
+        "Things That the user must study to get this job": ["Advertising", "Marketing", "Communications", "Business Administration"]
+    },
+    {
+        "Job Name": "Brand Manager",
+        "Skills Needed": ["Brand strategy", "Market research", "Communication", "Problem-solving", "Creativity"],
+        "Things That The User Needs to like": ["Managing a brand's image", "Developing new products", "Marketing and sales", "Strategic thinking"],
+        "Things That the user must study to get this job": ["Marketing", "Business Administration", "Brand Management", "Communications"]
+    },
+    {
+        "Job Name": "Copywriter",
+        "Skills Needed": ["Writing and editing", "Marketing knowledge", "Creativity", "Persuasion", "Communication"],
+        "Things That The User Needs to like": ["Writing advertisements", "Creative expression", "Marketing and sales", "Working with a team"],
+        "Things That the user must study to get this job": ["Marketing", "Communications", "English", "Psychology"]
+    },
+    {
+        "Job Name": "Social Media Manager",
+        "Skills Needed": ["Social media platforms", "Content creation", "Audience engagement", "Communication", "Analytics"],
+        "Things That The User Needs to like": ["Using social media", "Creating engaging content", "Building a community", "Staying up-to-date with trends"],
+        "Things That the user must study to get this job": ["Marketing", "Communications", "Digital Media", "Public Relations"]
+    },
+    {
+        "Job Name": "Event Coordinator",
+        "Skills Needed": ["Organizational skills", "Budgeting", "Vendor management", "Communication", "Problem-solving"],
+        "Things That The User Needs to like": ["Planning events", "Working with people", "Attention to detail", "Bringing ideas to life"],
+        "Things That the user must study to get this job": ["Event Planning", "Hospitality Management", "Business Administration", "Marketing"]
+    },
+    {
+        "Job Name": "Restaurant Manager",
+        "Skills Needed": ["Customer service", "Team leadership", "Budgeting", "Inventory management", "Problem-solving"],
+        "Things That The User Needs to like": ["Working in a restaurant", "Managing a team", "Customer service", "Working in a fast-paced environment"],
+        "Things That the user must study to get this job": ["Culinary Arts", "Hospitality Management", "Business Administration", "Restaurant Management"]
+    },
+    {
+        "Job Name": "Hotel Manager",
+        "Skills Needed": ["Customer service", "Team leadership", "Budgeting", "Front desk operations", "Problem-solving"],
+        "Things That The User Needs to like": ["Working in a hotel", "Managing a team", "Customer service", "Hospitality"],
+        "Things That the user must study to get this job": ["Hospitality Management", "Business Administration", "Tourism", "Hotel Management"]
+    },
+    {
+        "Job Name": "Chef",
+        "Skills Needed": ["Cooking techniques", "Menu planning", "Food safety", "Creativity", "Teamwork"],
+        "Things That The User Needs to like": ["Cooking and baking", "Trying new recipes", "Working in a fast-paced environment", "Making people happy with food"],
+        "Things That the user must study to get this job": ["Culinary Arts", "Nutrition", "Food Science", "Hospitality Management"]
+    },
+    {
+        "Job Name": "Pastry Chef",
+        "Skills Needed": ["Baking techniques", "Decorating skills", "Creativity", "Attention to detail", "Food safety"],
+        "Things That The User Needs to like": ["Baking desserts", "Decorating cakes", "Working with your hands", "Creative expression"],
+        "Things That the user must study to get this job": ["Culinary Arts", "Baking and Pastry Arts", "Food Science"]
+    },
+    {
+        "Job Name": "Bartender",
+        "Skills Needed": ["Mixology", "Customer service", "Communication", "Time management", "Problem-solving"],
+        "Things That The User Needs to like": ["Making drinks", "Working with people", "Socializing", "Working in a bar or restaurant"],
+        "Things That the user must study to get this job": ["Mixology", "Hospitality Management", "Customer Service"]
+    },
+    {
+        "Job Name": "Sommelier",
+        "Skills Needed": ["Wine knowledge", "Tasting skills", "Customer service", "Communication", "Attention to detail"],
+        "Things That The User Needs to like": ["Studying wine", "Tasting new wines", "Helping people choose wine", "Customer service"],
+        "Things That the user must study to get this job": ["Sommelier Certification", "Hospitality Management", "Culinary Arts"]
+    },
+    {
+        "Job Name": "Tour Guide",
+        "Skills Needed": ["Public speaking", "Storytelling", "Historical knowledge", "Communication", "Patience"],
+        "Things That The User Needs to like": ["Talking to people", "Sharing information", "History and culture", "Leading groups"],
+        "Things That the user must study to get this job": ["History", "Cultural Studies", "Communications", "Public Speaking"]
+    },
+    {
+        "Job Name": "Travel Agent",
+        "Skills Needed": ["Customer service", "Organizational skills", "Communication", "Geographic knowledge", "Sales skills"],
+        "Things That The User Needs to like": ["Planning trips", "Traveling to new places", "Working with people", "Helping others plan their vacations"],
+        "Things That the user must study to get this job": ["Tourism", "Hospitality Management", "Geography", "Sales"]
+    },
+    {
+        "Job Name": "Tour Operator",
+        "Skills Needed": ["Organizational skills", "Budgeting", "Customer service", "Communication", "Problem-solving"],
+        "Things That The User Needs to like": ["Planning and leading tours", "Working with people", "Travel", "Logistics"],
+        "Things That the user must study to get this job": ["Tourism", "Hospitality Management", "Business Administration"]
+    },
+    {
+        "Job Name": "Physical Education Teacher",
+        "Skills Needed": ["Exercise science", "Sports knowledge", "Leadership", "Communication", "Patience"],
+        "Things That The User Needs to like": ["Working with children", "Playing sports", "Promoting health and wellness", "Coaching"],
+        "Things That the user must study to get this job": ["Physical Education", "Kinesiology", "Exercise Science", "Education"]
+    },
+    {
+        "Job Name": "School Counselor",
+        "Skills Needed": ["Child development", "Active listening", "Empathy", "Communication", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with students", "Helping with academic and personal issues", "Providing guidance", "Mental health"],
+        "Things That the user must study to get this job": ["School Counseling", "Psychology", "Child Development", "Education"]
+    },
+    {
+        "Job Name": "High School Principal",
+        "Skills Needed": ["Leadership", "Organizational skills", "Communication", "Problem-solving", "Team management"],
+        "Things That The User Needs to like": ["Leading a school", "Working with teachers and students", "Strategic planning", "Problem-solving"],
+        "Things That the user must study to get this job": ["Educational Leadership", "Education Administration", "Curriculum Development", "Leadership"]
+    },
+    {
+        "Job Name": "Librarian",
+        "Skills Needed": ["Information organization", "Research skills", "Public speaking", "Customer service", "Digital literacy"],
+        "Things That The User Needs to like": ["Reading and research", "Helping people find information", "Organizing knowledge", "Working in a quiet environment"],
+        "Things That the user must study to get this job": ["Library Science", "Information Science", "History", "Literature"]
+    },
+    {
+        "Job Name": "Curriculum Developer",
+        "Skills Needed": ["Instructional design", "Subject-matter expertise", "Writing and editing", "Creativity", "Communication"],
+        "Things That The User Needs to like": ["Creating lesson plans", "Designing educational materials", "Teaching", "Learning about new subjects"],
+        "Things That the user must study to get this job": ["Curriculum and Instruction", "Education", "Instructional Design", "Subject-specific knowledge"]
+    },
+    {
+        "Job Name": "Early Childhood Educator",
+        "Skills Needed": ["Child development", "Patience", "Creativity", "Communication", "Classroom management"],
+        "Things That The User Needs to like": ["Working with young children", "Singing and playing", "Making a positive impact on a child's life", "Creativity"],
+        "Things That the user must study to get this job": ["Early Childhood Education", "Child Development", "Psychology", "Education"]
+    },
+    {
+        "Job Name": "School Administrator",
+        "Skills Needed": ["Leadership", "Organizational skills", "Budgeting", "Communication", "Problem-solving"],
+        "Things That The User Needs to like": ["Managing a school", "Working with teachers and staff", "Strategic planning", "Problem-solving"],
+        "Things That the user must study to get this job": ["Educational Administration", "Business Administration", "Education", "Leadership"]
+    },
+    {
+        "Job Name": "Special Education Teacher",
+        "Skills Needed": ["Patience", "Empathy", "Individualized education plans (IEP)", "Communication", "Classroom management"],
+        "Things That The User Needs to like": ["Helping students with special needs", "Working one-on-one with students", "Making a positive impact on a student's life", "Problem-solving"],
+        "Things That the user must study to get this job": ["Special Education", "Education", "Child Development", "Psychology"]
+    },
+    {
+        "Job Name": "Career Counselor",
+        "Skills Needed": ["Active listening", "Career development", "Assessment skills", "Communication", "Empathy"],
+        "Things That The User Needs to like": ["Helping people find their career path", "Providing guidance", "Working with students or adults", "Problem-solving"],
+        "Things That the user must study to get this job": ["Counseling", "Career Development", "Psychology", "Sociology"]
+    },
+    {
+        "Job Name": "Corporate Trainer",
+        "Skills Needed": ["Public speaking", "Instructional design", "Subject-matter expertise", "Communication", "Leadership"],
+        "Things That The User Needs to like": ["Teaching and mentoring employees", "Training on new systems or skills", "Working in a corporate environment", "Public speaking"],
+        "Things That the user must study to get this job": ["Human Resources", "Business Administration", "Instructional Design", "Communications"]
+    },
+    {
+        "Job Name": "Art Director",
+        "Skills Needed": ["Creative vision", "Design software", "Team leadership", "Communication", "Project management"],
+        "Things That The User Needs to like": ["Leading a creative team", "Directing a project's visual style", "Working on a team", "Art and design"],
+        "Things That the user must study to get this job": ["Art Direction", "Graphic Design", "Marketing", "Communications"]
+    },
+    {
+        "Job Name": "UX Designer",
+        "Skills Needed": ["User research", "Wireframing", "Prototyping software (e.g., Figma)", "Problem-solving", "Empathy"],
+        "Things That The User Needs to like": ["Designing user experiences", "Making products easy to use", "User research", "Problem-solving"],
+        "Things That the user must study to get this job": ["User Experience Design", "Human-Computer Interaction", "Psychology", "Graphic Design"]
+    },
+    {
+        "Job Name": "UI Designer",
+        "Skills Needed": ["Design software (e.g., Figma)", "Visual design principles", "Color theory", "Typography", "Attention to detail"],
+        "Things That The User Needs to like": ["Designing user interfaces", "Creating beautiful visuals", "Web and app design", "Working with a team"],
+        "Things That the user must study to get this job": ["User Interface Design", "Graphic Design", "Digital Media", "Art"]
+    },
+    {
+        "Job Name": "Motion Graphics Designer",
+        "Skills Needed": ["Animation software (e.g., After Effects)", "Video editing", "Storytelling", "Creativity", "Attention to detail"],
+        "Things That The User Needs to like": ["Creating animated graphics", "Video production", "Creative expression", "Working on a team"],
+        "Things That the user must study to get this job": ["Motion Graphics", "Animation", "Graphic Design", "Video Production"]
+    },
+    {
+        "Job Name": "Industrial Designer",
+        "Skills Needed": ["CAD software", "Product design", "Problem-solving", "Creativity", "Material science"],
+        "Things That The User Needs to like": ["Designing new products", "Creating physical prototypes", "Solving problems", "Working with your hands"],
+        "Things That the user must study to get this job": ["Industrial Design", "Product Design", "Engineering", "Art"]
+    },
+    {
+        "Job Name": "Fashion Designer",
+        "Skills Needed": ["Drawing and sketching", "Sewing and pattern making", "Textile knowledge", "Creativity", "Attention to detail"],
+        "Things That The User Needs to like": ["Designing clothes", "Creating new fashion trends", "Working with fabrics", "Creative expression"],
+        "Things That the user must study to get this job": ["Fashion Design", "Textiles", "Art", "Business"]
+    },
+    {
+        "Job Name": "Jewelry Designer",
+        "Skills Needed": ["Sketching and drawing", "Metalworking", "Gemstone knowledge", "Creativity", "Attention to detail"],
+        "Things That The User Needs to like": ["Designing jewelry", "Working with metal and gems", "Working with your hands", "Creative expression"],
+        "Things That the user must study to get this job": ["Jewelry Design", "Fine Arts", "Metalworking", "Gemology"]
+    },
+    {
+        "Job Name": "Furniture Designer",
+        "Skills Needed": ["Woodworking", "CAD software", "Product design", "Creativity", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing furniture", "Working with wood", "Creating functional art", "Problem-solving"],
+        "Things That the user must study to get this job": ["Furniture Design", "Woodworking", "Industrial Design", "Art"]
+    },
+    {
+        "Job Name": "Set Designer",
+        "Skills Needed": ["Spatial planning", "Drawing and sketching", "Theater history", "Creativity", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing sets for plays and films", "Working on a team", "Creative expression", "Theater"],
+        "Things That the user must study to get this job": ["Set Design", "Theater Arts", "Art", "Architecture"]
+    },
+    {
+        "Job Name": "Game Designer",
+        "Skills Needed": ["Game theory", "Storytelling", "Creativity", "Problem-solving", "Collaboration"],
+        "Things That The User Needs to like": ["Designing video games", "Playing and analyzing games", "Working on a team", "Creative expression"],
+        "Things That the user must study to get this job": ["Game Design", "Computer Science", "Art", "Storytelling"]
+    },
+    {
+        "Job Name": "Sound Designer",
+        "Skills Needed": ["Audio engineering", "Sound editing software", "Music theory", "Creativity", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with sound", "Creating sound effects for film and games", "Audio production", "Creative expression"],
+        "Things That the user must study to get this job": ["Sound Design", "Audio Engineering", "Music", "Film Studies"]
+    },
+    {
+        "Job Name": "Lighting Designer",
+        "Skills Needed": ["Lighting systems", "Electrical knowledge", "Creativity", "Problem-solving", "Teamwork"],
+        "Things That The User Needs to like": ["Designing lighting for theater or events", "Working with technology", "Creative expression", "Working on a team"],
+        "Things That the user must study to get this job": ["Lighting Design", "Theater Arts", "Electrical Engineering", "Art"]
+    },
+    {
+        "Job Name": "Costume Designer",
+        "Skills Needed": ["Sewing and pattern making", "Textile knowledge", "Historical knowledge", "Creativity", "Attention to detail"],
+        "Things That The User Needs to like": ["Designing costumes for theater or film", "Working with fabrics", "Creative expression", "History"],
+        "Things That the user must study to get this job": ["Costume Design", "Fashion Design", "Theater Arts", "Textiles"]
+    },
+    {
+        "Job Name": "Stunt Performer",
+        "Skills Needed": ["Physical fitness", "Acrobatics", "Martial arts", "Safety protocols", "Teamwork"],
+        "Things That The User Needs to like": ["Performing stunts", "Physical activity", "Working in film and TV", "Adrenaline"],
+        "Things That the user must study to get this job": ["Stunt Training", "Martial Arts", "Gymnastics", "Film Production"]
+    },
+    {
+        "Job Name": "Voice Actor",
+        "Skills Needed": ["Voice modulation", "Acting skills", "Communication", "Storytelling", "Audio recording"],
+        "Things That The User Needs to like": ["Using your voice to tell a story", "Acting", "Working in a recording studio", "Creative expression"],
+        "Things That the user must study to get this job": ["Voice Acting", "Acting", "Communications", "Theatre"]
+    },
+    {
+        "Job Name": "Choreographer",
+        "Skills Needed": ["Dance skills", "Creativity", "Teaching skills", "Teamwork", "Problem-solving"],
+        "Things That The User Needs to like": ["Creating dances", "Working with dancers", "Creative expression", "Physical activity"],
+        "Things That the user must study to get this job": ["Dance", "Choreography", "Kinesiology", "Music"]
+    },
+    {
+        "Job Name": "Music Producer",
+        "Skills Needed": ["Music theory", "Audio engineering", "Music production software (e.g., Logic, Ableton)", "Creativity", "Collaboration"],
+        "Things That The User Needs to like": ["Making music", "Working in a recording studio", "Creative expression", "Working with artists"],
+        "Things That the user must study to get this job": ["Music Production", "Audio Engineering", "Music Theory", "Sound Design"]
+    },
+    {
+        "Job Name": "Conductor",
+        "Skills Needed": ["Music theory", "Leadership", "Communication", "Teamwork", "Musical instrument knowledge"],
+        "Things That The User Needs to like": ["Leading an orchestra or choir", "Music", "Teamwork", "Performing"],
+        "Things That the user must study to get this job": ["Conducting", "Music Theory", "Music Performance", "Orchestration"]
+    },
+    {
+        "Job Name": "Composer",
+        "Skills Needed": ["Music theory", "Composition", "Creativity", "Musical instrument knowledge", "Storytelling"],
+        "Things That The User Needs to like": ["Writing music", "Creative expression", "Storytelling with sound", "Playing an instrument"],
+        "Things That the user must study to get this job": ["Composition", "Music Theory", "Music History", "Orchestration"]
+    },
+    {
+        "Job Name": "Songwriter",
+        "Skills Needed": ["Creative writing", "Music theory", "Lyrics writing", "Creativity", "Storytelling"],
+        "Things That The User Needs to like": ["Writing songs", "Creative expression", "Telling stories through music", "Playing an instrument"],
+        "Things That the user must study to get this job": ["Music", "Creative Writing", "Music Theory", "Poetry"]
+    },
+    {
+        "Job Name": "Musician",
+        "Skills Needed": ["Musical instrument knowledge", "Music theory", "Performance skills", "Teamwork", "Creativity"],
+        "Things That The User Needs to like": ["Playing an instrument", "Performing for an audience", "Creative expression", "Working with other musicians"],
+        "Things That the user must study to get this job": ["Music Performance", "Music Theory", "Music History", "Ear Training"]
+    },
+    {
+        "Job Name": "Astronaut",
+        "Skills Needed": ["Physics", "Engineering", "Problem-solving", "Teamwork", "Stress management"],
+        "Things That The User Needs to like": ["Space exploration", "High-tech systems", "Math and physics", "Working in a team"],
+        "Things That the user must study to get this job": ["Aerospace Engineering", "Physics", "Mathematics", "Aeronautical Science"]
+    },
+    {
+        "Job Name": "Rocket Scientist",
+        "Skills Needed": ["Physics", "Aerospace engineering", "Problem-solving", "Mathematics", "Propulsion systems"],
+        "Things That The User Needs to like": ["Designing rockets", "Space exploration", "High-tech systems", "Math and physics"],
+        "Things That the user must study to get this job": ["Aerospace Engineering", "Physics", "Mathematics", "Mechanical Engineering"]
+    },
+    {
+        "Job Name": "Seismologist",
+        "Skills Needed": ["Geology", "Data analysis", "Problem-solving", "Fieldwork", "Physics"],
+        "Things That The User Needs to like": ["Studying earthquakes", "Analyzing data", "Earth science", "Working with technology"],
+        "Things That the user must study to get this job": ["Geology", "Geophysics", "Physics", "Mathematics"]
+    },
+    {
+        "Job Name": "Volcanologist",
+        "Skills Needed": ["Geology", "Fieldwork", "Data collection", "Problem-solving", "Physics"],
+        "Things That The User Needs to like": ["Studying volcanoes", "Working outdoors", "Earth science", "Science and research"],
+        "Things That the user must study to get this job": ["Geology", "Volcanology", "Geophysics", "Chemistry"]
+    },
+    {
+        "Job Name": "Climatologist",
+        "Skills Needed": ["Climate science", "Data analysis", "Forecasting models", "Problem-solving", "Communication"],
+        "Things That The User Needs to like": ["Studying the climate", "Environmental science", "Analyzing data", "Research"],
+        "Things That the user must study to get this job": ["Climatology", "Environmental Science", "Physics", "Mathematics"]
+    },
+    {
+        "Job Name": "Oceanographer",
+        "Skills Needed": ["Oceanography", "Data analysis", "Research methods", "SCUBA diving", "Environmental knowledge"],
+        "Things That The User Needs to like": ["Studying the ocean", "Marine life", "Environmental conservation", "Science and research"],
+        "Things That the user must study to get this job": ["Oceanography", "Marine Biology", "Environmental Science", "Geology"]
+    },
+    {
+        "Job Name": "Ecologist",
+        "Skills Needed": ["Ecology", "Fieldwork", "Data collection", "Environmental knowledge", "Problem-solving"],
+        "Things That The User Needs to like": ["Studying ecosystems", "Working outdoors", "Environmental conservation", "Science and research"],
+        "Things That the user must study to get this job": ["Ecology", "Environmental Science", "Biology", "Botany"]
+    },
+    {
+        "Job Name": "Botanist",
+        "Skills Needed": ["Plant science", "Fieldwork", "Data collection", "Ecology", "Problem-solving"],
+        "Things That The User Needs to like": ["Studying plants", "Working outdoors", "Gardening", "Science and research"],
+        "Things That the user must study to get this job": ["Botany", "Biology", "Environmental Science", "Horticulture"]
+    },
+    {
+        "Job Name": "Zoologist",
+        "Skills Needed": ["Animal behavior", "Fieldwork", "Data collection", "Ecology", "Problem-solving"],
+        "Things That The User Needs to like": ["Studying animals", "Working outdoors", "Animal conservation", "Science and research"],
+        "Things That the user must study to get this job": ["Zoology", "Biology", "Animal Science", "Ecology"]
+    },
+    {
+        "Job Name": "Entomologist",
+        "Skills Needed": ["Insect biology", "Fieldwork", "Data collection", "Ecology", "Problem-solving"],
+        "Things That The User Needs to like": ["Studying insects", "Working outdoors", "Science and research", "Nature"],
+        "Things That the user must study to get this job": ["Entomology", "Biology", "Ecology", "Zoology"]
+    },
+    {
+        "Job Name": "Ornithologist",
+        "Skills Needed": ["Bird biology", "Fieldwork", "Data collection", "Ecology", "Problem-solving"],
+        "Things That The User Needs to like": ["Studying birds", "Working outdoors", "Science and research", "Nature"],
+        "Things That the user must study to get this job": ["Ornithology", "Biology", "Ecology", "Zoology"]
+    },
+    {
+        "Job Name": "Paleontologist",
+        "Skills Needed": ["Fossil analysis", "Fieldwork", "Data collection", "Geology", "Problem-solving"],
+        "Things That The User Needs to like": ["Digging for fossils", "Studying dinosaurs", "History and science", "Problem-solving"],
+        "Things That the user must study to get this job": ["Paleontology", "Geology", "Biology", "History"]
+    },
+    {
+        "Job Name": "Toxicologist",
+        "Skills Needed": ["Chemistry", "Biology", "Lab techniques", "Data analysis", "Problem-solving"],
+        "Things That The User Needs to like": ["Studying toxins and poisons", "Working in a lab", "Science and research", "Problem-solving"],
+        "Things That the user must study to get this job": ["Toxicology", "Chemistry", "Biology", "Pharmacology"]
+    },
+    {
+        "Job Name": "Pathologist",
+        "Skills Needed": ["Medical diagnosis", "Lab techniques", "Anatomy", "Attention to detail", "Problem-solving"],
+        "Things That The User Needs to like": ["Diagnosing diseases", "Working in a lab", "Medical science", "Problem-solving"],
+        "Things That the user must study to get this job": ["Pathology", "Medical School", "Anatomy", "Biology"]
+    },
+    {
+        "Job Name": "Surgeon",
+        "Skills Needed": ["Surgical skills", "Anatomy", "Medical knowledge", "Attention to detail", "Stress management"],
+        "Things That The User Needs to like": ["Performing surgery", "Working with your hands", "Helping people with their health", "Working in a high-stakes environment"],
+        "Things That the user must study to get this job": ["Medical School", "Anatomy", "Biology", "Surgical Residency"]
+    },
+    {
+        "Job Name": "General Practitioner",
+        "Skills Needed": ["Medical diagnosis", "Patient care", "Communication", "Empathy", "Problem-solving"],
+        "Things That The User Needs to like": ["Helping people with their health", "Working with a variety of patients", "Problem-solving", "Healthcare"],
+        "Things That the user must study to get this job": ["Medical School", "Biology", "Chemistry", "Anatomy"]
+    },
+    {
+        "Job Name": "Pediatrician",
+        "Skills Needed": ["Child development", "Medical diagnosis", "Patient care", "Communication", "Empathy"],
+        "Things That The User Needs to like": ["Working with children", "Helping children with their health", "Patience", "Making a positive impact on a child's life"],
+        "Things That the user must study to get this job": ["Medical School", "Pediatrics", "Child Development", "Biology"]
+    },
+    {
+        "Job Name": "Psychiatrist",
+        "Skills Needed": ["Psychology", "Medical diagnosis", "Empathy", "Communication", "Problem-solving"],
+        "Things That The User Needs to like": ["Helping people with their mental health", "Understanding human behavior", "Problem-solving", "Medical science"],
+        "Things That the user must study to get this job": ["Medical School", "Psychiatry", "Psychology", "Neuroscience"]
+    },
+    {
+        "Job Name": "Neurologist",
+        "Skills Needed": ["Neurology", "Medical diagnosis", "Problem-solving", "Anatomy", "Attention to detail"],
+        "Things That The User Needs to like": ["Studying the brain", "Solving complex medical puzzles", "Medical science", "Research"],
+        "Things That the user must study to get this job": ["Medical School", "Neurology", "Neuroscience", "Anatomy"]
+    },
+    {
+        "Job Name": "Radiologist",
+        "Skills Needed": ["Medical imaging", "Anatomy", "Attention to detail", "Problem-solving", "Technology"],
+        "Things That The User Needs to like": ["Working with technology", "Analyzing medical images", "Solving puzzles", "Medical science"],
+        "Things That the user must study to get this job": ["Medical School", "Radiology", "Anatomy", "Physics"]
+    },
+    {
+        "Job Name": "Anesthesiologist",
+        "Skills Needed": ["Anesthesia knowledge", "Patient care", "Stress management", "Attention to detail", "Teamwork"],
+        "Things That The User Needs to like": ["Working with technology", "Helping patients during surgery", "High-stakes situations", "Problem-solving"],
+        "Things That the user must study to get this job": ["Medical School", "Anesthesiology", "Pharmacology", "Anatomy"]
+    },
+    {
+        "Job Name": "Dentist",
+        "Skills Needed": ["Oral anatomy", "Medical procedures", "Patient care", "Attention to detail", "Communication"],
+        "Things That The User Needs to like": ["Working with your hands", "Helping people with oral health", "Solving medical puzzles", "Working in a clinic"],
+        "Things That the user must study to get this job": ["Dentistry", "Biology", "Chemistry", "Anatomy"]
+    },
+    {
+        "Job Name": "Optometrist",
+        "Skills Needed": ["Eye anatomy", "Vision testing", "Patient care", "Communication", "Attention to detail"],
+        "Things That The User Needs to like": ["Working with people", "Helping people with their vision", "Science and technology", "Working in a clinic"],
+        "Things That the user must study to get this job": ["Optometry", "Biology", "Physics", "Anatomy"]
+    },
+    {
+        "Job Name": "Chiropractor",
+        "Skills Needed": ["Spinal anatomy", "Physical manipulation", "Patient care", "Communication", "Empathy"],
+        "Things That The User Needs to like": ["Working with your hands", "Helping people with back pain", "Health and wellness", "Human anatomy"],
+        "Things That the user must study to get this job": ["Chiropractic", "Anatomy", "Kinesiology", "Biology"]
+    },
+    {
+        "Job Name": "Pharmacist",
+        "Skills Needed": ["Drug interactions", "Patient counseling", "Attention to detail", "Medical terminology", "Chemistry"],
+        "Things That The User Needs to like": ["Working with chemicals and medications", "Helping people with their health", "Customer service", "Healthcare"],
+        "Things That the user must study to get this job": ["Pharmacy", "Chemistry", "Biology", "Pharmacology"]
+    },
+    {
+        "Job Name": "Psychologist",
+        "Skills Needed": ["Active listening", "Empathy", "Psychology", "Problem-solving", "Communication"],
+        "Things That The User Needs to like": ["Helping people with their emotions", "Understanding human behavior", "Providing guidance", "Mental health"],
+        "Things That the user must study to get this job": ["Psychology", "Counseling", "Social Work", "Sociology"]
+    },
+    {
+        "Job Name": "Social Worker",
+        "Skills Needed": ["Empathy", "Active listening", "Crisis intervention", "Resource navigation", "Advocacy"],
+        "Things That The User Needs to like": ["Helping people in need", "Community service", "Advocating for social justice", "Working with diverse populations"],
+        "Things That the user must study to get this job": ["Social Work", "Sociology", "Psychology", "Public Health"]
+    },
+    {
+        "Job Name": "Physical Therapist",
+        "Skills Needed": ["Anatomy and physiology", "Rehabilitation exercises", "Patient care", "Communication", "Empathy"],
+        "Things That The User Needs to like": ["Helping people recover from injuries", "Working one-on-one with patients", "Health and wellness", "Human anatomy"],
+        "Things That the user must study to get this job": ["Physical Therapy", "Biology", "Kinesiology", "Health Sciences"]
+    },
+    {
+        "Job Name": "Occupational Therapist",
+        "Skills Needed": ["Therapeutic techniques", "Patient care", "Empathy", "Problem-solving", "Creativity"],
+        "Things That The User Needs to like": ["Helping people with daily tasks", "Working with patients to regain independence", "Creative problem-solving", "Healthcare"],
+        "Things That the user must study to get this job": ["Occupational Therapy", "Psychology", "Kinesiology", "Health Sciences"]
+    },
+    {
+        "Job Name": "Speech-Language Pathologist",
+        "Skills Needed": ["Anatomy of speech", "Diagnosis", "Therapeutic techniques", "Patience", "Communication"],
+        "Things That The User Needs to like": ["Helping people with communication difficulties", "Working with children or adults", "Problem-solving", "Making a positive impact on people's lives"],
+        "Things That the user must study to get this job": ["Speech-Language Pathology", "Linguistics", "Anatomy", "Psychology"]
+    },
+    {
+        "Job Name": "Dietitian",
+        "Skills Needed": ["Nutrition science", "Meal planning", "Patient counseling", "Communication", "Empathy"],
+        "Things That The User Needs to like": ["Helping people with their diet and health", "Cooking and food science", "Educating others", "Wellness"],
+        "Things That the user must study to get this job": ["Dietetics", "Nutrition Science", "Biology", "Chemistry"]
+    },
+    {
+        "Job Name": "Audiologist",
+        "Skills Needed": ["Hearing testing", "Diagnosis", "Patient care", "Communication", "Technology"],
+        "Things That The User Needs to like": ["Helping people with hearing loss", "Working with technology", "Patient care", "Medical science"],
+        "Things That the user must study to get this job": ["Audiology", "Speech-Language Pathology", "Physics", "Anatomy"]
+    },
+    {
+        "Job Name": "Medical Assistant",
+        "Skills Needed": ["Medical terminology", "Patient care", "Administrative skills", "Communication", "Attention to detail"],
+        "Things That The User Needs to like": ["Working in a clinic or doctor's office", "Helping doctors and nurses", "Patient care", "Organizing medical records"],
+        "Things That the user must study to get this job": ["Medical Assisting Program", "Anatomy", "Medical Terminology", "Health Sciences"]
+    },
+    {
+        "Job Name": "Medical Technologist",
+        "Skills Needed": ["Lab techniques", "Data analysis", "Medical terminology", "Attention to detail", "Problem-solving"],
+        "Things That The User Needs to like": ["Working in a lab", "Analyzing medical samples", "Technology", "Problem-solving"],
+        "Things That the user must study to get this job": ["Medical Technology", "Biology", "Chemistry", "Anatomy"]
+    },
+    {
+        "Job Name": "Radiologic Technologist",
+        "Skills Needed": ["Medical imaging", "Patient care", "Technology", "Attention to detail", "Communication"],
+        "Things That The User Needs to like": ["Working with technology", "Taking x-rays and scans", "Patient care", "Medical science"],
+        "Things That the user must study to get this job": ["Radiologic Technology", "Anatomy", "Physics", "Medical Terminology"]
+    },
+    {
+        "Job Name": "Dental Hygienist",
+        "Skills Needed": ["Oral anatomy", "Teeth cleaning techniques", "Patient care", "Communication", "Attention to detail"],
+        "Things That The User Needs to like": ["Working with your hands", "Helping people with oral health", "Patient care", "Working in a clinic"],
+        "Things That the user must study to get this job": ["Dental Hygiene Program", "Oral Anatomy", "Biology", "Chemistry"]
+    },
+    {
+        "Job Name": "Certified Nursing Assistant",
+        "Skills Needed": ["Patient care", "Empathy", "Communication", "First aid", "Attention to detail"],
+        "Things That The User Needs to like": ["Helping people with daily tasks", "Working with elderly or sick patients", "Making a positive impact on others' lives", "Teamwork"],
+        "Things That the user must study to get this job": ["CNA Certification Program", "Nursing", "Anatomy", "First Aid"]
+    },
+    {
+        "Job Name": "Home Health Aide",
+        "Skills Needed": ["Patient care", "Empathy", "First aid", "Communication", "Organizational skills"],
+        "Things That The User Needs to like": ["Helping people in their homes", "Making a positive impact on others' lives", "Working independently", "Caring for others"],
+        "Things That the user must study to get this job": ["Home Health Aide Certification", "First Aid", "Patient Care"]
+    },
+    {
+        "Job Name": "Massage Therapist",
+        "Skills Needed": ["Anatomy and physiology", "Massage techniques", "Patient care", "Empathy", "Communication"],
+        "Things That The User Needs to like": ["Working with your hands", "Helping people relax", "Health and wellness", "Human anatomy"],
+        "Things That the user must study to get this job": ["Massage Therapy Program", "Anatomy", "Kinesiology", "Health Sciences"]
+    },
+    {
+        "Job Name": "Acupuncturist",
+        "Skills Needed": ["Acupuncture techniques", "Anatomy", "Patient care", "Communication", "Empathy"],
+        "Things That The User Needs to like": ["Working with your hands", "Helping people with alternative medicine", "Health and wellness", "Human anatomy"],
+        "Things That the user must study to get this job": ["Acupuncture Program", "Anatomy", "Chinese Medicine", "Health Sciences"]
+    },
+    {
+        "Job Name": "Chiropractor",
+        "Skills Needed": ["Spinal anatomy", "Physical manipulation", "Patient care", "Communication", "Empathy"],
+        "Things That The User Needs to like": ["Working with your hands", "Helping people with back pain", "Health and wellness", "Human anatomy"],
+        "Things That the user must study to get this job": ["Chiropractic", "Anatomy", "Kinesiology", "Biology"]
+    },
+    {
+        "Job Name": "Veterinarian Technician",
+        "Skills Needed": ["Animal anatomy", "Medical procedures", "Patient care", "Communication", "Teamwork"],
+        "Things That The User Needs to like": ["Working with animals", "Helping veterinarians with patient care", "Animal health", "Working in a clinic"],
+        "Things That the user must study to get this job": ["Veterinary Technology Program", "Animal Anatomy", "Biology", "Chemistry"]
+    },
+    {
+        "Job Name": "Veterinary Assistant",
+        "Skills Needed": ["Animal handling", "Patient care", "First aid", "Communication", "Teamwork"],
+        "Things That The User Needs to like": ["Working with animals", "Helping veterinarians and technicians", "Animal health", "Working in a clinic"],
+        "Things That the user must study to get this job": ["Veterinary Assistant Program", "Animal Handling", "First Aid"]
+    },
+    {
+        "Job Name": "Zookeeper",
+        "Skills Needed": ["Animal care", "Animal behavior", "Communication", "Teamwork", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with animals", "Educating the public", "Animal conservation", "Physical labor"],
+        "Things That the user must study to get this job": ["Zoology", "Animal Science", "Biology", "Wildlife Management"]
+    },
+    {
+        "Job Name": "Wildlife Biologist",
+        "Skills Needed": ["Animal behavior", "Fieldwork", "Data collection", "Ecology", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with animals in their natural habitat", "Environmental conservation", "Science and research", "Working outdoors"],
+        "Things That the user must study to get this job": ["Wildlife Biology", "Zoology", "Ecology", "Biology"]
+    },
+    {
+        "Job Name": "Pet Groomer",
+        "Skills Needed": ["Animal handling", "Grooming techniques", "Customer service", "Communication", "Patience"],
+        "Things That The User Needs to like": ["Working with animals", "Grooming dogs and cats", "Customer service", "Attention to detail"],
+        "Things That the user must study to get this job": ["Pet Grooming Certification", "Animal Handling"]
+    },
+    {
+        "Job Name": "Dog Trainer",
+        "Skills Needed": ["Animal behavior", "Training techniques", "Patience", "Communication", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with dogs", "Teaching new tricks", "Animal behavior", "Helping people with their pets"],
+        "Things That the user must study to get this job": ["Dog Training Certification", "Animal Behavior", "Psychology"]
+    },
+    {
+        "Job Name": "Fish and Game Warden",
+        "Skills Needed": ["Wildlife law enforcement", "First aid", "Outdoor skills", "Communication", "Problem-solving"],
+        "Things That The User Needs to like": ["Working outdoors", "Protecting wildlife", "Law enforcement", "Nature"],
+        "Things That the user must study to get this job": ["Criminal Justice", "Wildlife Management", "Environmental Science"]
+    },
+    {
+        "Job Name": "Pilot",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Flying planes", "Traveling to new places", "Working in a high-tech environment", "Following strict procedures"],
+        "Things That the user must study to get this job": ["Aviation", "Physics", "Mathematics", "Aeronautical Science"]
+    },
+    {
+        "Job Name": "Air Traffic Controller",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Working in a high-stakes environment", "Problem-solving", "Working with technology", "Managing air traffic"],
+        "Things That the user must study to get this job": ["Air Traffic Control", "Aeronautical Science", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Aerospace Engineer",
+        "Skills Needed": ["Aerodynamics", "Propulsion systems", "Structural mechanics", "CAD software", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing aircraft and spacecraft", "Space exploration", "High-tech systems", "Math and physics"],
+        "Things That the user must study to get this job": ["Aerospace Engineering", "Physics", "Mathematics", "Mechanical Engineering"]
+    },
+    {
+        "Job Name": "Mechanical Engineer",
+        "Skills Needed": ["CAD software (e.g., SolidWorks)", "Thermodynamics", "Fluid mechanics", "Material science", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing machines and systems", "Analyzing how things work", "Building physical prototypes", "Math and physics"],
+        "Things That the user must study to get this job": ["Mechanical Engineering", "Physics", "Thermodynamics", "Mathematics"]
+    },
+    {
+        "Job Name": "Electrical Engineer",
+        "Skills Needed": ["Circuit design", "Electromagnetism", "Programming", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Designing electronic systems", "Working with circuits", "High-tech systems", "Math and physics"],
+        "Things That the user must study to get this job": ["Electrical Engineering", "Physics", "Mathematics", "Computer Science"]
+    },
+    {
+        "Job Name": "Civil Engineer",
+        "Skills Needed": ["Structural analysis", "Project management", "GIS software", "Hydrology", "Building codes"],
+        "Things That The User Needs to like": ["Designing infrastructure like roads and bridges", "Working on large-scale projects", "Sustainability", "Community development"],
+        "Things That the user must study to get this job": ["Civil Engineering", "Structural Engineering", "Urban Planning", "Geology"]
+    },
+    {
+        "Job Name": "Chemical Engineer",
+        "Skills Needed": ["Chemistry", "Thermodynamics", "Process design", "Problem-solving", "Data analysis"],
+        "Things That The User Needs to like": ["Designing chemical processes", "Working with chemicals", "Problem-solving", "Science and research"],
+        "Things That the user must study to get this job": ["Chemical Engineering", "Chemistry", "Thermodynamics", "Mathematics"]
+    },
+    {
+        "Job Name": "Industrial Engineer",
+        "Skills Needed": ["Process optimization", "Lean manufacturing", "Statistical analysis", "Problem-solving", "Project management"],
+        "Things That The User Needs to like": ["Improving efficiency", "Solving business problems", "Working with numbers and data", "Strategic planning"],
+        "Things That the user must study to get this job": ["Industrial Engineering", "Operations Management", "Statistics", "Business Administration"]
+    },
+    {
+        "Job Name": "Robotics Engineer",
+        "Skills Needed": ["Robotics", "Programming", "Electronics", "Problem-solving", "Mechanical design"],
+        "Things That The User Needs to like": ["Building and programming robots", "Working with technology", "Solving complex problems", "Creative design"],
+        "Things That the user must study to get this job": ["Robotics", "Computer Science", "Electrical Engineering", "Mechanical Engineering"]
+    },
+    {
+        "Job Name": "Biomedical Engineer",
+        "Skills Needed": ["Biology", "Engineering principles", "Medical device design", "Problem-solving", "Data analysis"],
+        "Things That The User Needs to like": ["Designing medical devices", "Working with technology", "Helping people with their health", "Science and engineering"],
+        "Things That the user must study to get this job": ["Biomedical Engineering", "Biology", "Engineering", "Anatomy and Physiology"]
+    },
+    {
+        "Job Name": "Computer Hardware Engineer",
+        "Skills Needed": ["Circuit design", "Electronics", "Programming", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Designing computer hardware", "Working with technology", "Solving complex problems", "Working with your hands"],
+        "Things That the user must study to get this job": ["Computer Engineering", "Electrical Engineering", "Computer Science", "Physics"]
+    },
+    {
+        "Job Name": "Mining Engineer",
+        "Skills Needed": ["Geology", "Mining techniques", "Safety protocols", "Problem-solving", "Project management"],
+        "Things That The User Needs to like": ["Working with your hands", "Working outdoors", "Problem-solving", "Physical labor"],
+        "Things That the user must study to get this job": ["Mining Engineering", "Geology", "Geophysics", "Civil Engineering"]
+    },
+    {
+        "Job Name": "Petroleum Engineer",
+        "Skills Needed": ["Geology", "Drilling techniques", "Fluid mechanics", "Problem-solving", "Data analysis"],
+        "Things That The User Needs to like": ["Working with oil and gas", "Problem-solving", "Working with technology", "Science and engineering"],
+        "Things That the user must study to get this job": ["Petroleum Engineering", "Geology", "Chemical Engineering", "Mathematics"]
+    },
+    {
+        "Job Name": "Nuclear Engineer",
+        "Skills Needed": ["Nuclear physics", "Thermodynamics", "Problem-solving", "Data analysis", "Safety protocols"],
+        "Things That The User Needs to like": ["Working with nuclear energy", "High-tech systems", "Math and physics", "Problem-solving"],
+        "Things That the user must study to get this job": ["Nuclear Engineering", "Physics", "Thermodynamics", "Mathematics"]
+    },
+    {
+        "Job Name": "Environmental Engineer",
+        "Skills Needed": ["Environmental science", "Hydrology", "Problem-solving", "GIS software", "Data analysis"],
+        "Things That The User Needs to like": ["Solving environmental problems", "Working with nature", "Sustainability", "Science and engineering"],
+        "Things That the user must study to get this job": ["Environmental Engineering", "Environmental Science", "Civil Engineering", "Geology"]
+    },
+    {
+        "Job Name": "Urban Planner",
+        "Skills Needed": ["GIS software", "Policy analysis", "Community engagement", "Spatial analysis", "Project management"],
+        "Things That The User Needs to like": ["Designing cities", "Improving communities", "Sustainability", "Community development"],
+        "Things That the user must study to get this job": ["Urban Planning", "Geography", "Public Policy", "Architecture"]
+    },
+    {
+        "Job Name": "Architect",
+        "Skills Needed": ["Design software (e.g., AutoCAD)", "Spatial awareness", "Drawing and sketching", "Building materials knowledge", "Communication"],
+        "Things That The User Needs to like": ["Designing buildings", "Creating blueprints", "Art and design", "Urban planning"],
+        "Things That the user must study to get this job": ["Architecture", "Art History", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Landscape Architect",
+        "Skills Needed": ["Drawing and sketching", "Plant knowledge", "Spatial planning", "Project management", "Communication"],
+        "Things That The User Needs to like": ["Designing parks and gardens", "Working outdoors", "Nature and plants", "Creative expression"],
+        "Things That the user must study to get this job": ["Landscape Architecture", "Horticulture", "Botany", "Environmental Science"]
+    },
+    {
+        "Job Name": "Construction Manager",
+        "Skills Needed": ["Project management", "Budgeting", "Team leadership", "Problem-solving", "Building codes"],
+        "Things That The User Needs to like": ["Managing a construction project", "Working with a team", "Problem-solving", "Physical labor"],
+        "Things That the user must study to get this job": ["Construction Management", "Civil Engineering", "Business Administration", "Project Management"]
+    },
+    {
+        "Job Name": "Welder",
+        "Skills Needed": ["Welding techniques", "Blueprint reading", "Attention to safety", "Manual dexterity", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Metalwork"],
+        "Things That the user must study to get this job": ["Welding Program", "Metalworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Plumber",
+        "Skills Needed": ["Plumbing techniques", "Blueprint reading", "Problem-solving", "Manual dexterity", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Plumbing Program", "Blueprint Reading", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Carpenter",
+        "Skills Needed": ["Woodworking", "Blueprint reading", "Manual dexterity", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Working with wood", "Building and repairing things", "Physical labor", "Working with your hands"],
+        "Things That the user must study to get this job": ["Carpentry Program", "Woodworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Electrician",
+        "Skills Needed": ["Electrical systems knowledge", "Problem-solving", "Manual dexterity", "Attention to safety", "Reading blueprints"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Physics", "Vocational Training (electrical)", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "HVAC Technician",
+        "Skills Needed": ["HVAC systems knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Working with technology"],
+        "Things That the user must study to get this job": ["HVAC Program", "Physics", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Auto Mechanic",
+        "Skills Needed": ["Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Customer service"],
+        "Things That The User Needs to like": ["Working with cars", "Repairing machines", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Automotive Technology Program", "Physics", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Machinist",
+        "Skills Needed": ["Machinery operation", "Blueprint reading", "Manual dexterity", "Attention to detail", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with machines", "Building parts", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Machining Program", "Blueprint Reading", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Welder",
+        "Skills Needed": ["Welding techniques", "Blueprint reading", "Attention to safety", "Manual dexterity", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Metalwork"],
+        "Things That the user must study to get this job": ["Welding Program", "Metalworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Plumber",
+        "Skills Needed": ["Plumbing techniques", "Blueprint reading", "Problem-solving", "Manual dexterity", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Plumbing Program", "Blueprint Reading", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Carpenter",
+        "Skills Needed": ["Woodworking", "Blueprint reading", "Manual dexterity", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Working with wood", "Building and repairing things", "Physical labor", "Working with your hands"],
+        "Things That the user must study to get this job": ["Carpentry Program", "Woodworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Electrician",
+        "Skills Needed": ["Electrical systems knowledge", "Problem-solving", "Manual dexterity", "Attention to safety", "Reading blueprints"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Physics", "Vocational Training (electrical)", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "HVAC Technician",
+        "Skills Needed": ["HVAC systems knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Working with technology"],
+        "Things That the user must study to get this job": ["HVAC Program", "Physics", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Auto Mechanic",
+        "Skills Needed": ["Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Customer service"],
+        "Things That The User Needs to like": ["Working with cars", "Repairing machines", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Automotive Technology Program", "Physics", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Machinist",
+        "Skills Needed": ["Machinery operation", "Blueprint reading", "Manual dexterity", "Attention to detail", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with machines", "Building parts", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Machining Program", "Blueprint Reading", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Paralegal",
+        "Skills Needed": ["Legal research", "Writing and editing", "Attention to detail", "Organizational skills", "Communication"],
+        "Things That The User Needs to like": ["Working in a law office", "Legal research", "Helping lawyers", "Organizing documents"],
+        "Things That the user must study to get this job": ["Paralegal Studies", "Law", "Legal Research"]
+    },
+    {
+        "Job Name": "Court Reporter",
+        "Skills Needed": ["Typing skills", "Stenography", "Attention to detail", "Legal knowledge", "Communication"],
+        "Things That The User Needs to like": ["Working in a courtroom", "Typing fast", "Legal procedures", "Attention to detail"],
+        "Things That the user must study to get this job": ["Court Reporting Program", "Legal Studies", "Typing"]
+    },
+    {
+        "Job Name": "Forensic Scientist",
+        "Skills Needed": ["Lab techniques", "Chemistry", "Biology", "Data analysis", "Attention to detail"],
+        "Things That The User Needs to like": ["Solving crimes", "Working in a lab", "Science and technology", "Problem-solving"],
+        "Things That the user must study to get this job": ["Forensic Science", "Chemistry", "Biology", "Criminology"]
+    },
+    {
+        "Job Name": "Criminologist",
+        "Skills Needed": ["Research methods", "Statistical analysis", "Problem-solving", "Legal knowledge", "Writing skills"],
+        "Things That The User Needs to like": ["Studying crime", "Analyzing data", "Research", "Helping law enforcement"],
+        "Things That the user must study to get this job": ["Criminology", "Sociology", "Psychology", "Statistics"]
+    },
+    {
+        "Job Name": "Police Officer",
+        "Skills Needed": ["Communication", "Problem-solving", "Physical fitness", "First aid", "Stress management"],
+        "Things That The User Needs to like": ["Helping people", "Working with a team", "Law enforcement", "Physical activity"],
+        "Things That the user must study to get this job": ["Criminal Justice", "Law Enforcement Training", "Psychology"]
+    },
+    {
+        "Job Name": "Detective",
+        "Skills Needed": ["Investigation skills", "Problem-solving", "Communication", "Attention to detail", "Critical thinking"],
+        "Things That The User Needs to like": ["Solving mysteries", "Investigating crimes", "Working with a team", "Attention to detail"],
+        "Things That the user must study to get this job": ["Criminal Justice", "Criminology", "Law Enforcement Training"]
+    },
+    {
+        "Job Name": "Firefighter",
+        "Skills Needed": ["First aid", "Physical fitness", "Problem-solving", "Stress management", "Teamwork"],
+        "Things That The User Needs to like": ["Helping people", "Working in emergencies", "Physical activity", "Working with a team"],
+        "Things That the user must study to get this job": ["Fire Science", "First Aid", "Physical Training"]
+    },
+    {
+        "Job Name": "Paramedic",
+        "Skills Needed": ["First aid", "Medical knowledge", "Problem-solving", "Stress management", "Communication"],
+        "Things That The User Needs to like": ["Helping people in emergencies", "Working in a fast-paced environment", "Medical science", "Problem-solving"],
+        "Things That the user must study to get this job": ["Paramedic Program", "Emergency Medical Technician (EMT)", "Anatomy"]
+    },
+    {
+        "Job Name": "Pilot",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Flying planes", "Traveling to new places", "Working in a high-tech environment", "Following strict procedures"],
+        "Things That the user must study to get this job": ["Aviation", "Physics", "Mathematics", "Aeronautical Science"]
+    },
+    {
+        "Job Name": "Air Traffic Controller",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Working in a high-stakes environment", "Problem-solving", "Working with technology", "Managing air traffic"],
+        "Things That the user must study to get this job": ["Air Traffic Control", "Aeronautical Science", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Aerospace Engineer",
+        "Skills Needed": ["Aerodynamics", "Propulsion systems", "Structural mechanics", "CAD software", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing aircraft and spacecraft", "Space exploration", "High-tech systems", "Math and physics"],
+        "Things That the user must study to get this job": ["Aerospace Engineering", "Physics", "Mathematics", "Mechanical Engineering"]
+    },
+    {
+        "Job Name": "Aircraft Mechanic",
+        "Skills Needed": ["Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Safety protocols"],
+        "Things That The User Needs to like": ["Working with your hands", "Repairing aircraft", "Physical labor", "Working with machines"],
+        "Things That the user must study to get this job": ["Aircraft Maintenance Program", "Aeronautics", "Physics"]
+    },
+    {
+        "Job Name": "Ship Captain",
+        "Skills Needed": ["Navigation", "Leadership", "Problem-solving", "Communication", "Stress management"],
+        "Things That The User Needs to like": ["Sailing and boating", "Traveling by sea", "Leadership", "Problem-solving"],
+        "Things That the user must study to get this job": ["Nautical Science", "Maritime Studies", "Navigation"]
+    },
+    {
+        "Job Name": "Marine Engineer",
+        "Skills Needed": ["Marine systems knowledge", "Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail"],
+        "Things That The User Needs to like": ["Working on a ship", "Repairing marine systems", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Marine Engineering", "Mechanical Engineering", "Physics"]
+    },
+    {
+        "Job Name": "Urban Planner",
+        "Skills Needed": ["GIS software", "Policy analysis", "Community engagement", "Spatial analysis", "Project management"],
+        "Things That The User Needs to like": ["Designing cities", "Improving communities", "Sustainability", "Community development"],
+        "Things That the user must study to get this job": ["Urban Planning", "Geography", "Public Policy", "Architecture"]
+    },
+    {
+        "Job Name": "Architect",
+        "Skills Needed": ["Design software (e.g., AutoCAD)", "Spatial awareness", "Drawing and sketching", "Building materials knowledge", "Communication"],
+        "Things That The User Needs to like": ["Designing buildings", "Creating blueprints", "Art and design", "Urban planning"],
+        "Things That the user must study to get this job": ["Architecture", "Art History", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Landscape Architect",
+        "Skills Needed": ["Drawing and sketching", "Plant knowledge", "Spatial planning", "Project management", "Communication"],
+        "Things That The User Needs to like": ["Designing parks and gardens", "Working outdoors", "Nature and plants", "Creative expression"],
+        "Things That the user must study to get this job": ["Landscape Architecture", "Horticulture", "Botany", "Environmental Science"]
+    },
+    {
+        "Job Name": "Construction Manager",
+        "Skills Needed": ["Project management", "Budgeting", "Team leadership", "Problem-solving", "Building codes"],
+        "Things That The User Needs to like": ["Managing a construction project", "Working with a team", "Problem-solving", "Physical labor"],
+        "Things That the user must study to get this job": ["Construction Management", "Civil Engineering", "Business Administration", "Project Management"]
+    },
+    {
+        "Job Name": "Interior Designer",
+        "Skills Needed": ["Space planning", "Color theory", "Furniture selection", "CAD software", "Budgeting"],
+        "Things That The User Needs to like": ["Decorating rooms", "Choosing colors and furniture", "Creating comfortable spaces", "Art and design"],
+        "Things That the user must study to get this job": ["Interior Design", "Architecture", "Art History", "Design Principles"]
+    },
+    {
+        "Job Name": "Set Designer",
+        "Skills Needed": ["Spatial planning", "Drawing and sketching", "Theater history", "Creativity", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing sets for plays and films", "Working on a team", "Creative expression", "Theater"],
+        "Things That the user must study to get this job": ["Set Design", "Theater Arts", "Art", "Architecture"]
+    },
+    {
+        "Job Name": "Fashion Designer",
+        "Skills Needed": ["Drawing and sketching", "Sewing and pattern making", "Textile knowledge", "Creativity", "Attention to detail"],
+        "Things That The User Needs to like": ["Designing clothes", "Creating new fashion trends", "Working with fabrics", "Creative expression"],
+        "Things That the user must study to get this job": ["Fashion Design", "Textiles", "Art", "Business"]
+    },
+    {
+        "Job Name": "Graphic Novelist",
+        "Skills Needed": ["Drawing skills", "Storytelling", "Writing and editing", "Creativity", "Attention to detail"],
+        "Things That The User Needs to like": ["Drawing comics", "Writing stories", "Creative expression", "Working on long-term projects"],
+        "Things That the user must study to get this job": ["Illustration", "Creative Writing", "Graphic Design", "Storytelling"]
+    },
+    {
+        "Job Name": "Illustrator",
+        "Skills Needed": ["Drawing skills", "Digital art software", "Creativity", "Color theory", "Attention to detail"],
+        "Things That The User Needs to like": ["Drawing and sketching", "Creating visual concepts", "Working on creative projects", "Designing characters and scenes"],
+        "Things That the user must study to get this job": ["Illustration", "Art", "Design", "Digital Media"]
+    },
+    {
+        "Job Name": "Animator",
+        "Skills Needed": ["Animation software (e.g., After Effects)", "Drawing skills", "Storytelling", "Creativity", "Attention to detail"],
+        "Things That The User Needs to like": ["Drawing cartoons and characters", "Bringing stories to life", "Working on creative projects", "Animation"],
+        "Things That the user must study to get this job": ["Animation", "Art", "Digital Media", "Storytelling"]
+    },
+    {
+        "Job Name": "Game Designer",
+        "Skills Needed": ["Game theory", "Storytelling", "Creativity", "Problem-solving", "Collaboration"],
+        "Things That The User Needs to like": ["Designing video games", "Playing and analyzing games", "Working on a team", "Creative expression"],
+        "Things That the user must study to get this job": ["Game Design", "Computer Science", "Art", "Storytelling"]
+    },
+    {
+        "Job Name": "UX Designer",
+        "Skills Needed": ["User research", "Wireframing", "Prototyping software (e.g., Figma)", "Problem-solving", "Empathy"],
+        "Things That The User Needs to like": ["Designing user experiences", "Making products easy to use", "User research", "Problem-solving"],
+        "Things That the user must study to get this job": ["User Experience Design", "Human-Computer Interaction", "Psychology", "Graphic Design"]
+    },
+    {
+        "Job Name": "UI Designer",
+        "Skills Needed": ["Design software (e.g., Figma)", "Visual design principles", "Color theory", "Typography", "Attention to detail"],
+        "Things That The User Needs to like": ["Designing user interfaces", "Creating beautiful visuals", "Web and app design", "Working with a team"],
+        "Things That the user must study to get this job": ["User Interface Design", "Graphic Design", "Digital Media", "Art"]
+    },
+    {
+        "Job Name": "Web Developer",
+        "Skills Needed": ["HTML/CSS/JavaScript", "UI/UX principles", "Front-end frameworks (e.g., React, Vue)", "Back-end development (e.g., Node.js, Python)", "Problem-solving"],
+        "Things That The User Needs to like": ["Creating websites", "Designing user interfaces", "Solving coding problems", "Staying up-to-date with technology"],
+        "Things That the user must study to get this job": ["Computer Science", "Web Development", "User Interface Design"]
+    },
+    {
+        "Job Name": "Software Engineer",
+        "Skills Needed": ["Programming languages", "Problem-solving", "Data structures and algorithms", "Software architecture", "Collaboration"],
+        "Things That The User Needs to like": ["Building large-scale systems", "Solving complex technical problems", "Working with code", "Continuous learning"],
+        "Things That the user must study to get this job": ["Software Engineering", "Computer Science", "Mathematics", "Data Structures"]
+    },
+    {
+        "Job Name": "DevOps Engineer",
+        "Skills Needed": ["Cloud platforms (AWS, Azure)", "Automation tools (e.g., Jenkins)", "Scripting (e.g., Bash)", "System administration", "Collaboration"],
+        "Things That The User Needs to like": ["Automating processes", "Managing infrastructure", "Working with servers", "Continuous learning"],
+        "Things That the user must study to get this job": ["Computer Science", "DevOps", "Cloud Computing", "System Administration"]
+    },
+    {
+        "Job Name": "Machine Learning Engineer",
+        "Skills Needed": ["Machine learning algorithms", "Python/R programming", "Data science", "Statistics", "Problem-solving"],
+        "Things That The User Needs to like": ["Building AI models", "Working with data", "Solving complex problems", "Research"],
+        "Things That the user must study to get this job": ["Machine Learning", "Computer Science", "Statistics", "Mathematics"]
+    },
+    {
+        "Job Name": "Database Administrator",
+        "Skills Needed": ["SQL", "Database management systems (e.g., MySQL)", "Data security", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Working with data", "Organizing information", "Ensuring data security", "Problem-solving"],
+        "Things That the user must study to get this job": ["Database Administration", "Computer Science", "Information Technology"]
+    },
+    {
+        "Job Name": "Network Administrator",
+        "Skills Needed": ["Network protocols", "Network security", "Troubleshooting", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Managing computer networks", "Solving network problems", "Working with technology", "Attention to detail"],
+        "Things That the user must study to get this job": ["Network Administration", "Computer Science", "Information Technology", "Cybersecurity"]
+    },
+    {
+        "Job Name": "Cybersecurity Analyst",
+        "Skills Needed": ["Network security", "Threat analysis", "Penetration testing", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Protecting computer systems", "Solving puzzles", "Working with technology", "Continuous learning"],
+        "Things That the user must study to get this job": ["Cybersecurity", "Computer Science", "Information Technology", "Criminology"]
+    },
+    {
+        "Job Name": "IT Support Specialist",
+        "Skills Needed": ["Troubleshooting", "Customer service", "Communication", "Problem-solving", "Technical knowledge"],
+        "Things That The User Needs to like": ["Helping people with technology problems", "Solving puzzles", "Working with computers", "Customer service"],
+        "Things That the user must study to get this job": ["Information Technology", "Computer Science", "Customer Service"]
+    },
+    {
+        "Job Name": "Cloud Solutions Architect",
+        "Skills Needed": ["Cloud platforms (AWS, Azure)", "System design", "Problem-solving", "Communication", "Leadership"],
+        "Things That The User Needs to like": ["Designing cloud systems", "Working with technology", "Solving complex problems", "Strategic thinking"],
+        "Things That the user must study to get this job": ["Cloud Computing", "Computer Science", "System Architecture", "Business Administration"]
+    },
+    {
+        "Job Name": "Game Developer",
+        "Skills Needed": ["Programming (e.g., C++, C#)", "Game engine (e.g., Unity, Unreal Engine)", "Physics", "Problem-solving", "Teamwork"],
+        "Things That The User Needs to like": ["Making video games", "Playing and analyzing games", "Working on a team", "Creative expression"],
+        "Things That the user must study to get this job": ["Game Development", "Computer Science", "Physics", "Mathematics"]
+    },
+    {
+        "Job Name": "Robotics Engineer",
+        "Skills Needed": ["Robotics", "Programming", "Electronics", "Problem-solving", "Mechanical design"],
+        "Things That The User Needs to like": ["Building and programming robots", "Working with technology", "Solving complex problems", "Creative design"],
+        "Things That the user must study to get this job": ["Robotics", "Computer Science", "Electrical Engineering", "Mechanical Engineering"]
+    },
+    {
+        "Job Name": "Aerospace Engineer",
+        "Skills Needed": ["Aerodynamics", "Propulsion systems", "Structural mechanics", "CAD software", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing aircraft and spacecraft", "Space exploration", "High-tech systems", "Math and physics"],
+        "Things That the user must study to get this job": ["Aerospace Engineering", "Physics", "Mathematics", "Mechanical Engineering"]
+    },
+    {
+        "Job Name": "Biomedical Engineer",
+        "Skills Needed": ["Biology", "Engineering principles", "Medical device design", "Problem-solving", "Data analysis"],
+        "Things That The User Needs to like": ["Designing medical devices", "Working with technology", "Helping people with their health", "Science and engineering"],
+        "Things That the user must study to get this job": ["Biomedical Engineering", "Biology", "Engineering", "Anatomy and Physiology"]
+    },
+    {
+        "Job Name": "Environmental Engineer",
+        "Skills Needed": ["Environmental science", "Hydrology", "Problem-solving", "GIS software", "Data analysis"],
+        "Things That The User Needs to like": ["Solving environmental problems", "Working with nature", "Sustainability", "Science and engineering"],
+        "Things That the user must study to get this job": ["Environmental Engineering", "Environmental Science", "Civil Engineering", "Geology"]
+    },
+    {
+        "Job Name": "Mechanical Engineer",
+        "Skills Needed": ["CAD software (e.g., SolidWorks)", "Thermodynamics", "Fluid mechanics", "Material science", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing machines and systems", "Analyzing how things work", "Building physical prototypes", "Math and physics"],
+        "Things That the user must study to get this job": ["Mechanical Engineering", "Physics", "Thermodynamics", "Mathematics"]
+    },
+    {
+        "Job Name": "Electrical Engineer",
+        "Skills Needed": ["Circuit design", "Electromagnetism", "Programming", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Designing electronic systems", "Working with circuits", "High-tech systems", "Math and physics"],
+        "Things That the user must study to get this job": ["Electrical Engineering", "Physics", "Mathematics", "Computer Science"]
+    },
+    {
+        "Job Name": "Civil Engineer",
+        "Skills Needed": ["Structural analysis", "Project management", "GIS software", "Hydrology", "Building codes"],
+        "Things That The User Needs to like": ["Designing infrastructure like roads and bridges", "Working on large-scale projects", "Sustainability", "Community development"],
+        "Things That the user must study to get this job": ["Civil Engineering", "Structural Engineering", "Urban Planning", "Geology"]
+    },
+    {
+        "Job Name": "Chemical Engineer",
+        "Skills Needed": ["Chemistry", "Thermodynamics", "Process design", "Problem-solving", "Data analysis"],
+        "Things That The User Needs to like": ["Designing chemical processes", "Working with chemicals", "Problem-solving", "Science and research"],
+        "Things That the user must study to get this job": ["Chemical Engineering", "Chemistry", "Thermodynamics", "Mathematics"]
+    },
+    {
+        "Job Name": "Industrial Engineer",
+        "Skills Needed": ["Process optimization", "Lean manufacturing", "Statistical analysis", "Problem-solving", "Project management"],
+        "Things That The User Needs to like": ["Improving efficiency", "Solving business problems", "Working with numbers and data", "Strategic planning"],
+        "Things That the user must study to get this job": ["Industrial Engineering", "Operations Management", "Statistics", "Business Administration"]
+    },
+    {
+        "Job Name": "Computer Hardware Engineer",
+        "Skills Needed": ["Circuit design", "Electronics", "Programming", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Designing computer hardware", "Working with technology", "Solving complex problems", "Working with your hands"],
+        "Things That the user must study to get this job": ["Computer Engineering", "Electrical Engineering", "Computer Science", "Physics"]
+    },
+    {
+        "Job Name": "Mining Engineer",
+        "Skills Needed": ["Geology", "Mining techniques", "Safety protocols", "Problem-solving", "Project management"],
+        "Things That The User Needs to like": ["Working with your hands", "Working outdoors", "Problem-solving", "Physical labor"],
+        "Things That the user must study to get this job": ["Mining Engineering", "Geology", "Geophysics", "Civil Engineering"]
+    },
+    {
+        "Job Name": "Petroleum Engineer",
+        "Skills Needed": ["Geology", "Drilling techniques", "Fluid mechanics", "Problem-solving", "Data analysis"],
+        "Things That The User Needs to like": ["Working with oil and gas", "Problem-solving", "Working with technology", "Science and engineering"],
+        "Things That the user must study to get this job": ["Petroleum Engineering", "Geology", "Chemical Engineering", "Mathematics"]
+    },
+    {
+        "Job Name": "Nuclear Engineer",
+        "Skills Needed": ["Nuclear physics", "Thermodynamics", "Problem-solving", "Data analysis", "Safety protocols"],
+        "Things That The User Needs to like": ["Working with nuclear energy", "High-tech systems", "Math and physics", "Problem-solving"],
+        "Things That the user must study to get this job": ["Nuclear Engineering", "Physics", "Thermodynamics", "Mathematics"]
+    },
+    {
+        "Job Name": "Urban Planner",
+        "Skills Needed": ["GIS software", "Policy analysis", "Community engagement", "Spatial analysis", "Project management"],
+        "Things That The User Needs to like": ["Designing cities", "Improving communities", "Sustainability", "Community development"],
+        "Things That the user must study to get this job": ["Urban Planning", "Geography", "Public Policy", "Architecture"]
+    },
+    {
+        "Job Name": "Architect",
+        "Skills Needed": ["Design software (e.g., AutoCAD)", "Spatial awareness", "Drawing and sketching", "Building materials knowledge", "Communication"],
+        "Things That The User Needs to like": ["Designing buildings", "Creating blueprints", "Art and design", "Urban planning"],
+        "Things That the user must study to get this job": ["Architecture", "Art History", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Landscape Architect",
+        "Skills Needed": ["Drawing and sketching", "Plant knowledge", "Spatial planning", "Project management", "Communication"],
+        "Things That The User Needs to like": ["Designing parks and gardens", "Working outdoors", "Nature and plants", "Creative expression"],
+        "Things That the user must study to get this job": ["Landscape Architecture", "Horticulture", "Botany", "Environmental Science"]
+    },
+    {
+        "Job Name": "Construction Manager",
+        "Skills Needed": ["Project management", "Budgeting", "Team leadership", "Problem-solving", "Building codes"],
+        "Things That The User Needs to like": ["Managing a construction project", "Working with a team", "Problem-solving", "Physical labor"],
+        "Things That the user must study to get this job": ["Construction Management", "Civil Engineering", "Business Administration", "Project Management"]
+    },
+    {
+        "Job Name": "Welder",
+        "Skills Needed": ["Welding techniques", "Blueprint reading", "Attention to safety", "Manual dexterity", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Metalwork"],
+        "Things That the user must study to get this job": ["Welding Program", "Metalworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Plumber",
+        "Skills Needed": ["Plumbing techniques", "Blueprint reading", "Problem-solving", "Manual dexterity", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Plumbing Program", "Blueprint Reading", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Carpenter",
+        "Skills Needed": ["Woodworking", "Blueprint reading", "Manual dexterity", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Working with wood", "Building and repairing things", "Physical labor", "Working with your hands"],
+        "Things That the user must study to get this job": ["Carpentry Program", "Woodworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Electrician",
+        "Skills Needed": ["Electrical systems knowledge", "Problem-solving", "Manual dexterity", "Attention to safety", "Reading blueprints"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Physics", "Vocational Training (electrical)", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "HVAC Technician",
+        "Skills Needed": ["HVAC systems knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Working with technology"],
+        "Things That the user must study to get this job": ["HVAC Program", "Physics", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Auto Mechanic",
+        "Skills Needed": ["Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Customer service"],
+        "Things That The User Needs to like": ["Working with cars", "Repairing machines", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Automotive Technology Program", "Physics", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Machinist",
+        "Skills Needed": ["Machinery operation", "Blueprint reading", "Manual dexterity", "Attention to detail", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with machines", "Building parts", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Machining Program", "Blueprint Reading", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Paralegal",
+        "Skills Needed": ["Legal research", "Writing and editing", "Attention to detail", "Organizational skills", "Communication"],
+        "Things That The User Needs to like": ["Working in a law office", "Legal research", "Helping lawyers", "Organizing documents"],
+        "Things That the user must study to get this job": ["Paralegal Studies", "Law", "Legal Research"]
+    },
+    {
+        "Job Name": "Court Reporter",
+        "Skills Needed": ["Typing skills", "Stenography", "Attention to detail", "Legal knowledge", "Communication"],
+        "Things That The User Needs to like": ["Working in a courtroom", "Typing fast", "Legal procedures", "Attention to detail"],
+        "Things That the user must study to get this job": ["Court Reporting Program", "Legal Studies", "Typing"]
+    },
+    {
+        "Job Name": "Forensic Scientist",
+        "Skills Needed": ["Lab techniques", "Chemistry", "Biology", "Data analysis", "Attention to detail"],
+        "Things That The User Needs to like": ["Solving crimes", "Working in a lab", "Science and technology", "Problem-solving"],
+        "Things That the user must study to get this job": ["Forensic Science", "Chemistry", "Biology", "Criminology"]
+    },
+    {
+        "Job Name": "Criminologist",
+        "Skills Needed": ["Research methods", "Statistical analysis", "Problem-solving", "Legal knowledge", "Writing skills"],
+        "Things That The User Needs to like": ["Studying crime", "Analyzing data", "Research", "Helping law enforcement"],
+        "Things That the user must study to get this job": ["Criminology", "Sociology", "Psychology", "Statistics"]
+    },
+    {
+        "Job Name": "Police Officer",
+        "Skills Needed": ["Communication", "Problem-solving", "Physical fitness", "First aid", "Stress management"],
+        "Things That The User Needs to like": ["Helping people", "Working with a team", "Law enforcement", "Physical activity"],
+        "Things That the user must study to get this job": ["Criminal Justice", "Law Enforcement Training", "Psychology"]
+    },
+    {
+        "Job Name": "Detective",
+        "Skills Needed": ["Investigation skills", "Problem-solving", "Communication", "Attention to detail", "Critical thinking"],
+        "Things That The User Needs to like": ["Solving mysteries", "Investigating crimes", "Working with a team", "Attention to detail"],
+        "Things That the user must study to get this job": ["Criminal Justice", "Criminology", "Law Enforcement Training"]
+    },
+    {
+        "Job Name": "Firefighter",
+        "Skills Needed": ["First aid", "Physical fitness", "Problem-solving", "Stress management", "Teamwork"],
+        "Things That The User Needs to like": ["Helping people", "Working in emergencies", "Physical activity", "Working with a team"],
+        "Things That the user must study to get this job": ["Fire Science", "First Aid", "Physical Training"]
+    },
+    {
+        "Job Name": "Paramedic",
+        "Skills Needed": ["First aid", "Medical knowledge", "Problem-solving", "Stress management", "Communication"],
+        "Things That The User Needs to like": ["Helping people in emergencies", "Working in a fast-paced environment", "Medical science", "Problem-solving"],
+        "Things That the user must study to get this job": ["Paramedic Program", "Emergency Medical Technician (EMT)", "Anatomy"]
+    },
+    {
+        "Job Name": "Pilot",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Flying planes", "Traveling to new places", "Working in a high-tech environment", "Following strict procedures"],
+        "Things That the user must study to get this job": ["Aviation", "Physics", "Mathematics", "Aeronautical Science"]
+    },
+    {
+        "Job Name": "Air Traffic Controller",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Working in a high-stakes environment", "Problem-solving", "Working with technology", "Managing air traffic"],
+        "Things That the user must study to get this job": ["Air Traffic Control", "Aeronautical Science", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Aerospace Engineer",
+        "Skills Needed": ["Aerodynamics", "Propulsion systems", "Structural mechanics", "CAD software", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing aircraft and spacecraft", "Space exploration", "High-tech systems", "Math and physics"],
+        "Things That the user must study to get this job": ["Aerospace Engineering", "Physics", "Mathematics", "Mechanical Engineering"]
+    },
+    {
+        "Job Name": "Aircraft Mechanic",
+        "Skills Needed": ["Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Safety protocols"],
+        "Things That The User Needs to like": ["Working with your hands", "Repairing aircraft", "Physical labor", "Working with machines"],
+        "Things That the user must study to get this job": ["Aircraft Maintenance Program", "Aeronautics", "Physics"]
+    },
+    {
+        "Job Name": "Ship Captain",
+        "Skills Needed": ["Navigation", "Leadership", "Problem-solving", "Communication", "Stress management"],
+        "Things That The User Needs to like": ["Sailing and boating", "Traveling by sea", "Leadership", "Problem-solving"],
+        "Things That the user must study to get this job": ["Nautical Science", "Maritime Studies", "Navigation"]
+    },
+    {
+        "Job Name": "Marine Engineer",
+        "Skills Needed": ["Marine systems knowledge", "Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail"],
+        "Things That The User Needs to like": ["Working on a ship", "Repairing marine systems", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Marine Engineering", "Mechanical Engineering", "Physics"]
+    },
+    {
+        "Job Name": "Urban Planner",
+        "Skills Needed": ["GIS software", "Policy analysis", "Community engagement", "Spatial analysis", "Project management"],
+        "Things That The User Needs to like": ["Designing cities", "Improving communities", "Sustainability", "Community development"],
+        "Things That the user must study to get this job": ["Urban Planning", "Geography", "Public Policy", "Architecture"]
+    },
+    {
+        "Job Name": "Architect",
+        "Skills Needed": ["Design software (e.g., AutoCAD)", "Spatial awareness", "Drawing and sketching", "Building materials knowledge", "Communication"],
+        "Things That The User Needs to like": ["Designing buildings", "Creating blueprints", "Art and design", "Urban planning"],
+        "Things That the user must study to get this job": ["Architecture", "Art History", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Landscape Architect",
+        "Skills Needed": ["Drawing and sketching", "Plant knowledge", "Spatial planning", "Project management", "Communication"],
+        "Things That The User Needs to like": ["Designing parks and gardens", "Working outdoors", "Nature and plants", "Creative expression"],
+        "Things That the user must study to get this job": ["Landscape Architecture", "Horticulture", "Botany", "Environmental Science"]
+    },
+    {
+        "Job Name": "Construction Manager",
+        "Skills Needed": ["Project management", "Budgeting", "Team leadership", "Problem-solving", "Building codes"],
+        "Things That The User Needs to like": ["Managing a construction project", "Working with a team", "Problem-solving", "Physical labor"],
+        "Things That the user must study to get this job": ["Construction Management", "Civil Engineering", "Business Administration", "Project Management"]
+    },
+    {
+        "Job Name": "Welder",
+        "Skills Needed": ["Welding techniques", "Blueprint reading", "Attention to safety", "Manual dexterity", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Metalwork"],
+        "Things That the user must study to get this job": ["Welding Program", "Metalworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Plumber",
+        "Skills Needed": ["Plumbing techniques", "Blueprint reading", "Problem-solving", "Manual dexterity", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Plumbing Program", "Blueprint Reading", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Carpenter",
+        "Skills Needed": ["Woodworking", "Blueprint reading", "Manual dexterity", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Working with wood", "Building and repairing things", "Physical labor", "Working with your hands"],
+        "Things That the user must study to get this job": ["Carpentry Program", "Woodworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Electrician",
+        "Skills Needed": ["Electrical systems knowledge", "Problem-solving", "Manual dexterity", "Attention to safety", "Reading blueprints"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Physics", "Vocational Training (electrical)", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "HVAC Technician",
+        "Skills Needed": ["HVAC systems knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Working with technology"],
+        "Things That the user must study to get this job": ["HVAC Program", "Physics", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Auto Mechanic",
+        "Skills Needed": ["Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Customer service"],
+        "Things That The User Needs to like": ["Working with cars", "Repairing machines", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Automotive Technology Program", "Physics", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Machinist",
+        "Skills Needed": ["Machinery operation", "Blueprint reading", "Manual dexterity", "Attention to detail", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with machines", "Building parts", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Machining Program", "Blueprint Reading", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Paralegal",
+        "Skills Needed": ["Legal research", "Writing and editing", "Attention to detail", "Organizational skills", "Communication"],
+        "Things That The User Needs to like": ["Working in a law office", "Legal research", "Helping lawyers", "Organizing documents"],
+        "Things That the user must study to get this job": ["Paralegal Studies", "Law", "Legal Research"]
+    },
+    {
+        "Job Name": "Court Reporter",
+        "Skills Needed": ["Typing skills", "Stenography", "Attention to detail", "Legal knowledge", "Communication"],
+        "Things That The User Needs to like": ["Working in a courtroom", "Typing fast", "Legal procedures", "Attention to detail"],
+        "Things That the user must study to get this job": ["Court Reporting Program", "Legal Studies", "Typing"]
+    },
+    {
+        "Job Name": "Forensic Scientist",
+        "Skills Needed": ["Lab techniques", "Chemistry", "Biology", "Data analysis", "Attention to detail"],
+        "Things That The User Needs to like": ["Solving crimes", "Working in a lab", "Science and technology", "Problem-solving"],
+        "Things That the user must study to get this job": ["Forensic Science", "Chemistry", "Biology", "Criminology"]
+    },
+    {
+        "Job Name": "Criminologist",
+        "Skills Needed": ["Research methods", "Statistical analysis", "Problem-solving", "Legal knowledge", "Writing skills"],
+        "Things That The User Needs to like": ["Studying crime", "Analyzing data", "Research", "Helping law enforcement"],
+        "Things That the user must study to get this job": ["Criminology", "Sociology", "Psychology", "Statistics"]
+    },
+    {
+        "Job Name": "Police Officer",
+        "Skills Needed": ["Communication", "Problem-solving", "Physical fitness", "First aid", "Stress management"],
+        "Things That The User Needs to like": ["Helping people", "Working with a team", "Law enforcement", "Physical activity"],
+        "Things That the user must study to get this job": ["Criminal Justice", "Law Enforcement Training", "Psychology"]
+    },
+    {
+        "Job Name": "Detective",
+        "Skills Needed": ["Investigation skills", "Problem-solving", "Communication", "Attention to detail", "Critical thinking"],
+        "Things That The User Needs to like": ["Solving mysteries", "Investigating crimes", "Working with a team", "Attention to detail"],
+        "Things That the user must study to get this job": ["Criminal Justice", "Criminology", "Law Enforcement Training"]
+    },
+    {
+        "Job Name": "Firefighter",
+        "Skills Needed": ["First aid", "Physical fitness", "Problem-solving", "Stress management", "Teamwork"],
+        "Things That The User Needs to like": ["Helping people", "Working in emergencies", "Physical activity", "Working with a team"],
+        "Things That the user must study to get this job": ["Fire Science", "First Aid", "Physical Training"]
+    },
+    {
+        "Job Name": "Paramedic",
+        "Skills Needed": ["First aid", "Medical knowledge", "Problem-solving", "Stress management", "Communication"],
+        "Things That The User Needs to like": ["Helping people in emergencies", "Working in a fast-paced environment", "Medical science", "Problem-solving"],
+        "Things That the user must study to get this job": ["Paramedic Program", "Emergency Medical Technician (EMT)", "Anatomy"]
+    },
+    {
+        "Job Name": "Pilot",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Flying planes", "Traveling to new places", "Working in a high-tech environment", "Following strict procedures"],
+        "Things That the user must study to get this job": ["Aviation", "Physics", "Mathematics", "Aeronautical Science"]
+    },
+    {
+        "Job Name": "Air Traffic Controller",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Working in a high-stakes environment", "Problem-solving", "Working with technology", "Managing air traffic"],
+        "Things That the user must study to get this job": ["Air Traffic Control", "Aeronautical Science", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Aerospace Engineer",
+        "Skills Needed": ["Aerodynamics", "Propulsion systems", "Structural mechanics", "CAD software", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing aircraft and spacecraft", "Space exploration", "High-tech systems", "Math and physics"],
+        "Things That the user must study to get this job": ["Aerospace Engineering", "Physics", "Mathematics", "Mechanical Engineering"]
+    },
+    {
+        "Job Name": "Aircraft Mechanic",
+        "Skills Needed": ["Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Safety protocols"],
+        "Things That The User Needs to like": ["Working with your hands", "Repairing aircraft", "Physical labor", "Working with machines"],
+        "Things That the user must study to get this job": ["Aircraft Maintenance Program", "Aeronautics", "Physics"]
+    },
+    {
+        "Job Name": "Ship Captain",
+        "Skills Needed": ["Navigation", "Leadership", "Problem-solving", "Communication", "Stress management"],
+        "Things That The User Needs to like": ["Sailing and boating", "Traveling by sea", "Leadership", "Problem-solving"],
+        "Things That the user must study to get this job": ["Nautical Science", "Maritime Studies", "Navigation"]
+    },
+    {
+        "Job Name": "Marine Engineer",
+        "Skills Needed": ["Marine systems knowledge", "Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail"],
+        "Things That The User Needs to like": ["Working on a ship", "Repairing marine systems", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Marine Engineering", "Mechanical Engineering", "Physics"]
+    },
+    {
+        "Job Name": "Urban Planner",
+        "Skills Needed": ["GIS software", "Policy analysis", "Community engagement", "Spatial analysis", "Project management"],
+        "Things That The User Needs to like": ["Designing cities", "Improving communities", "Sustainability", "Community development"],
+        "Things That the user must study to get this job": ["Urban Planning", "Geography", "Public Policy", "Architecture"]
+    },
+    {
+        "Job Name": "Architect",
+        "Skills Needed": ["Design software (e.g., AutoCAD)", "Spatial awareness", "Drawing and sketching", "Building materials knowledge", "Communication"],
+        "Things That The User Needs to like": ["Designing buildings", "Creating blueprints", "Art and design", "Urban planning"],
+        "Things That the user must study to get this job": ["Architecture", "Art History", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Landscape Architect",
+        "Skills Needed": ["Drawing and sketching", "Plant knowledge", "Spatial planning", "Project management", "Communication"],
+        "Things That The User Needs to like": ["Designing parks and gardens", "Working outdoors", "Nature and plants", "Creative expression"],
+        "Things That the user must study to get this job": ["Landscape Architecture", "Horticulture", "Botany", "Environmental Science"]
+    },
+    {
+        "Job Name": "Construction Manager",
+        "Skills Needed": ["Project management", "Budgeting", "Team leadership", "Problem-solving", "Building codes"],
+        "Things That The User Needs to like": ["Managing a construction project", "Working with a team", "Problem-solving", "Physical labor"],
+        "Things That the user must study to get this job": ["Construction Management", "Civil Engineering", "Business Administration", "Project Management"]
+    },
+    {
+        "Job Name": "Welder",
+        "Skills Needed": ["Welding techniques", "Blueprint reading", "Attention to safety", "Manual dexterity", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Metalwork"],
+        "Things That the user must study to get this job": ["Welding Program", "Metalworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Plumber",
+        "Skills Needed": ["Plumbing techniques", "Blueprint reading", "Problem-solving", "Manual dexterity", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Plumbing Program", "Blueprint Reading", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Carpenter",
+        "Skills Needed": ["Woodworking", "Blueprint reading", "Manual dexterity", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Working with wood", "Building and repairing things", "Physical labor", "Working with your hands"],
+        "Things That the user must study to get this job": ["Carpentry Program", "Woodworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Electrician",
+        "Skills Needed": ["Electrical systems knowledge", "Problem-solving", "Manual dexterity", "Attention to safety", "Reading blueprints"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Physics", "Vocational Training (electrical)", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "HVAC Technician",
+        "Skills Needed": ["HVAC systems knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Working with technology"],
+        "Things That the user must study to get this job": ["HVAC Program", "Physics", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Auto Mechanic",
+        "Skills Needed": ["Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Customer service"],
+        "Things That The User Needs to like": ["Working with cars", "Repairing machines", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Automotive Technology Program", "Physics", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Machinist",
+        "Skills Needed": ["Machinery operation", "Blueprint reading", "Manual dexterity", "Attention to detail", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with machines", "Building parts", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Machining Program", "Blueprint Reading", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Paralegal",
+        "Skills Needed": ["Legal research", "Writing and editing", "Attention to detail", "Organizational skills", "Communication"],
+        "Things That The User Needs to like": ["Working in a law office", "Legal research", "Helping lawyers", "Organizing documents"],
+        "Things That the user must study to get this job": ["Paralegal Studies", "Law", "Legal Research"]
+    },
+    {
+        "Job Name": "Court Reporter",
+        "Skills Needed": ["Typing skills", "Stenography", "Attention to detail", "Legal knowledge", "Communication"],
+        "Things That The User Needs to like": ["Working in a courtroom", "Typing fast", "Legal procedures", "Attention to detail"],
+        "Things That the user must study to get this job": ["Court Reporting Program", "Legal Studies", "Typing"]
+    },
+    {
+        "Job Name": "Forensic Scientist",
+        "Skills Needed": ["Lab techniques", "Chemistry", "Biology", "Data analysis", "Attention to detail"],
+        "Things That The User Needs to like": ["Solving crimes", "Working in a lab", "Science and technology", "Problem-solving"],
+        "Things That the user must study to get this job": ["Forensic Science", "Chemistry", "Biology", "Criminology"]
+    },
+    {
+        "Job Name": "Criminologist",
+        "Skills Needed": ["Research methods", "Statistical analysis", "Problem-solving", "Legal knowledge", "Writing skills"],
+        "Things That The User Needs to like": ["Studying crime", "Analyzing data", "Research", "Helping law enforcement"],
+        "Things That the user must study to get this job": ["Criminology", "Sociology", "Psychology", "Statistics"]
+    },
+    {
+        "Job Name": "Police Officer",
+        "Skills Needed": ["Communication", "Problem-solving", "Physical fitness", "First aid", "Stress management"],
+        "Things That The User Needs to like": ["Helping people", "Working with a team", "Law enforcement", "Physical activity"],
+        "Things That the user must study to get this job": ["Criminal Justice", "Law Enforcement Training", "Psychology"]
+    },
+    {
+        "Job Name": "Detective",
+        "Skills Needed": ["Investigation skills", "Problem-solving", "Communication", "Attention to detail", "Critical thinking"],
+        "Things That The User Needs to like": ["Solving mysteries", "Investigating crimes", "Working with a team", "Attention to detail"],
+        "Things That the user must study to get this job": ["Criminal Justice", "Criminology", "Law Enforcement Training"]
+    },
+    {
+        "Job Name": "Firefighter",
+        "Skills Needed": ["First aid", "Physical fitness", "Problem-solving", "Stress management", "Teamwork"],
+        "Things That The User Needs to like": ["Helping people", "Working in emergencies", "Physical activity", "Working with a team"],
+        "Things That the user must study to get this job": ["Fire Science", "First Aid", "Physical Training"]
+    },
+    {
+        "Job Name": "Paramedic",
+        "Skills Needed": ["First aid", "Medical knowledge", "Problem-solving", "Stress management", "Communication"],
+        "Things That The User Needs to like": ["Helping people in emergencies", "Working in a fast-paced environment", "Medical science", "Problem-solving"],
+        "Things That the user must study to get this job": ["Paramedic Program", "Emergency Medical Technician (EMT)", "Anatomy"]
+    },
+    {
+        "Job Name": "Pilot",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Flying planes", "Traveling to new places", "Working in a high-tech environment", "Following strict procedures"],
+        "Things That the user must study to get this job": ["Aviation", "Physics", "Mathematics", "Aeronautical Science"]
+    },
+    {
+        "Job Name": "Air Traffic Controller",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Working in a high-stakes environment", "Problem-solving", "Working with technology", "Managing air traffic"],
+        "Things That the user must study to get this job": ["Air Traffic Control", "Aeronautical Science", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Aerospace Engineer",
+        "Skills Needed": ["Aerodynamics", "Propulsion systems", "Structural mechanics", "CAD software", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing aircraft and spacecraft", "Space exploration", "High-tech systems", "Math and physics"],
+        "Things That the user must study to get this job": ["Aerospace Engineering", "Physics", "Mathematics", "Mechanical Engineering"]
+    },
+    {
+        "Job Name": "Aircraft Mechanic",
+        "Skills Needed": ["Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Safety protocols"],
+        "Things That The User Needs to like": ["Working with your hands", "Repairing aircraft", "Physical labor", "Working with machines"],
+        "Things That the user must study to get this job": ["Aircraft Maintenance Program", "Aeronautics", "Physics"]
+    },
+    {
+        "Job Name": "Ship Captain",
+        "Skills Needed": ["Navigation", "Leadership", "Problem-solving", "Communication", "Stress management"],
+        "Things That The User Needs to like": ["Sailing and boating", "Traveling by sea", "Leadership", "Problem-solving"],
+        "Things That the user must study to get this job": ["Nautical Science", "Maritime Studies", "Navigation"]
+    },
+    {
+        "Job Name": "Marine Engineer",
+        "Skills Needed": ["Marine systems knowledge", "Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail"],
+        "Things That The User Needs to like": ["Working on a ship", "Repairing marine systems", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Marine Engineering", "Mechanical Engineering", "Physics"]
+    },
+    {
+        "Job Name": "Urban Planner",
+        "Skills Needed": ["GIS software", "Policy analysis", "Community engagement", "Spatial analysis", "Project management"],
+        "Things That The User Needs to like": ["Designing cities", "Improving communities", "Sustainability", "Community development"],
+        "Things That the user must study to get this job": ["Urban Planning", "Geography", "Public Policy", "Architecture"]
+    },
+    {
+        "Job Name": "Architect",
+        "Skills Needed": ["Design software (e.g., AutoCAD)", "Spatial awareness", "Drawing and sketching", "Building materials knowledge", "Communication"],
+        "Things That The User Needs to like": ["Designing buildings", "Creating blueprints", "Art and design", "Urban planning"],
+        "Things That the user must study to get this job": ["Architecture", "Art History", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Landscape Architect",
+        "Skills Needed": ["Drawing and sketching", "Plant knowledge", "Spatial planning", "Project management", "Communication"],
+        "Things That The User Needs to like": ["Designing parks and gardens", "Working outdoors", "Nature and plants", "Creative expression"],
+        "Things That the user must study to get this job": ["Landscape Architecture", "Horticulture", "Botany", "Environmental Science"]
+    },
+    {
+        "Job Name": "Construction Manager",
+        "Skills Needed": ["Project management", "Budgeting", "Team leadership", "Problem-solving", "Building codes"],
+        "Things That The User Needs to like": ["Managing a construction project", "Working with a team", "Problem-solving", "Physical labor"],
+        "Things That the user must study to get this job": ["Construction Management", "Civil Engineering", "Business Administration", "Project Management"]
+    },
+    {
+        "Job Name": "Welder",
+        "Skills Needed": ["Welding techniques", "Blueprint reading", "Attention to safety", "Manual dexterity", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Metalwork"],
+        "Things That the user must study to get this job": ["Welding Program", "Metalworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Plumber",
+        "Skills Needed": ["Plumbing techniques", "Blueprint reading", "Problem-solving", "Manual dexterity", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Plumbing Program", "Blueprint Reading", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Carpenter",
+        "Skills Needed": ["Woodworking", "Blueprint reading", "Manual dexterity", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Working with wood", "Building and repairing things", "Physical labor", "Working with your hands"],
+        "Things That the user must study to get this job": ["Carpentry Program", "Woodworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Electrician",
+        "Skills Needed": ["Electrical systems knowledge", "Problem-solving", "Manual dexterity", "Attention to safety", "Reading blueprints"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Physics", "Vocational Training (electrical)", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "HVAC Technician",
+        "Skills Needed": ["HVAC systems knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Working with technology"],
+        "Things That the user must study to get this job": ["HVAC Program", "Physics", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Auto Mechanic",
+        "Skills Needed": ["Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Customer service"],
+        "Things That The User Needs to like": ["Working with cars", "Repairing machines", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Automotive Technology Program", "Physics", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Machinist",
+        "Skills Needed": ["Machinery operation", "Blueprint reading", "Manual dexterity", "Attention to detail", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with machines", "Building parts", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Machining Program", "Blueprint Reading", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Paralegal",
+        "Skills Needed": ["Legal research", "Writing and editing", "Attention to detail", "Organizational skills", "Communication"],
+        "Things That The User Needs to like": ["Working in a law office", "Legal research", "Helping lawyers", "Organizing documents"],
+        "Things That the user must study to get this job": ["Paralegal Studies", "Law", "Legal Research"]
+    },
+    {
+        "Job Name": "Court Reporter",
+        "Skills Needed": ["Typing skills", "Stenography", "Attention to detail", "Legal knowledge", "Communication"],
+        "Things That The User Needs to like": ["Working in a courtroom", "Typing fast", "Legal procedures", "Attention to detail"],
+        "Things That the user must study to get this job": ["Court Reporting Program", "Legal Studies", "Typing"]
+    },
+    {
+        "Job Name": "Forensic Scientist",
+        "Skills Needed": ["Lab techniques", "Chemistry", "Biology", "Data analysis", "Attention to detail"],
+        "Things That The User Needs to like": ["Solving crimes", "Working in a lab", "Science and technology", "Problem-solving"],
+        "Things That the user must study to get this job": ["Forensic Science", "Chemistry", "Biology", "Criminology"]
+    },
+    {
+        "Job Name": "Criminologist",
+        "Skills Needed": ["Research methods", "Statistical analysis", "Problem-solving", "Legal knowledge", "Writing skills"],
+        "Things That The User Needs to like": ["Studying crime", "Analyzing data", "Research", "Helping law enforcement"],
+        "Things That the user must study to get this job": ["Criminology", "Sociology", "Psychology", "Statistics"]
+    },
+    {
+        "Job Name": "Police Officer",
+        "Skills Needed": ["Communication", "Problem-solving", "Physical fitness", "First aid", "Stress management"],
+        "Things That The User Needs to like": ["Helping people", "Working with a team", "Law enforcement", "Physical activity"],
+        "Things That the user must study to get this job": ["Criminal Justice", "Law Enforcement Training", "Psychology"]
+    },
+    {
+        "Job Name": "Detective",
+        "Skills Needed": ["Investigation skills", "Problem-solving", "Communication", "Attention to detail", "Critical thinking"],
+        "Things That The User Needs to like": ["Solving mysteries", "Investigating crimes", "Working with a team", "Attention to detail"],
+        "Things That the user must study to get this job": ["Criminal Justice", "Criminology", "Law Enforcement Training"]
+    },
+    {
+        "Job Name": "Firefighter",
+        "Skills Needed": ["First aid", "Physical fitness", "Problem-solving", "Stress management", "Teamwork"],
+        "Things That The User Needs to like": ["Helping people", "Working in emergencies", "Physical activity", "Working with a team"],
+        "Things That the user must study to get this job": ["Fire Science", "First Aid", "Physical Training"]
+    },
+    {
+        "Job Name": "Paramedic",
+        "Skills Needed": ["First aid", "Medical knowledge", "Problem-solving", "Stress management", "Communication"],
+        "Things That The User Needs to like": ["Helping people in emergencies", "Working in a fast-paced environment", "Medical science", "Problem-solving"],
+        "Things That the user must study to get this job": ["Paramedic Program", "Emergency Medical Technician (EMT)", "Anatomy"]
+    },
+    {
+        "Job Name": "Pilot",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Flying planes", "Traveling to new places", "Working in a high-tech environment", "Following strict procedures"],
+        "Things That the user must study to get this job": ["Aviation", "Physics", "Mathematics", "Aeronautical Science"]
+    },
+    {
+        "Job Name": "Air Traffic Controller",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Working in a high-stakes environment", "Problem-solving", "Working with technology", "Managing air traffic"],
+        "Things That the user must study to get this job": ["Air Traffic Control", "Aeronautical Science", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Aerospace Engineer",
+        "Skills Needed": ["Aerodynamics", "Propulsion systems", "Structural mechanics", "CAD software", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing aircraft and spacecraft", "Space exploration", "High-tech systems", "Math and physics"],
+        "Things That the user must study to get this job": ["Aerospace Engineering", "Physics", "Mathematics", "Mechanical Engineering"]
+    },
+    {
+        "Job Name": "Aircraft Mechanic",
+        "Skills Needed": ["Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Safety protocols"],
+        "Things That The User Needs to like": ["Working with your hands", "Repairing aircraft", "Physical labor", "Working with machines"],
+        "Things That the user must study to get this job": ["Aircraft Maintenance Program", "Aeronautics", "Physics"]
+    },
+    {
+        "Job Name": "Ship Captain",
+        "Skills Needed": ["Navigation", "Leadership", "Problem-solving", "Communication", "Stress management"],
+        "Things That The User Needs to like": ["Sailing and boating", "Traveling by sea", "Leadership", "Problem-solving"],
+        "Things That the user must study to get this job": ["Nautical Science", "Maritime Studies", "Navigation"]
+    },
+    {
+        "Job Name": "Marine Engineer",
+        "Skills Needed": ["Marine systems knowledge", "Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail"],
+        "Things That The User Needs to like": ["Working on a ship", "Repairing marine systems", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Marine Engineering", "Mechanical Engineering", "Physics"]
+    },
+    {
+        "Job Name": "Urban Planner",
+        "Skills Needed": ["GIS software", "Policy analysis", "Community engagement", "Spatial analysis", "Project management"],
+        "Things That The User Needs to like": ["Designing cities", "Improving communities", "Sustainability", "Community development"],
+        "Things That the user must study to get this job": ["Urban Planning", "Geography", "Public Policy", "Architecture"]
+    },
+    {
+        "Job Name": "Architect",
+        "Skills Needed": ["Design software (e.g., AutoCAD)", "Spatial awareness", "Drawing and sketching", "Building materials knowledge", "Communication"],
+        "Things That The User Needs to like": ["Designing buildings", "Creating blueprints", "Art and design", "Urban planning"],
+        "Things That the user must study to get this job": ["Architecture", "Art History", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Landscape Architect",
+        "Skills Needed": ["Drawing and sketching", "Plant knowledge", "Spatial planning", "Project management", "Communication"],
+        "Things That The User Needs to like": ["Designing parks and gardens", "Working outdoors", "Nature and plants", "Creative expression"],
+        "Things That the user must study to get this job": ["Landscape Architecture", "Horticulture", "Botany", "Environmental Science"]
+    },
+    {
+        "Job Name": "Construction Manager",
+        "Skills Needed": ["Project management", "Budgeting", "Team leadership", "Problem-solving", "Building codes"],
+        "Things That The User Needs to like": ["Managing a construction project", "Working with a team", "Problem-solving", "Physical labor"],
+        "Things That the user must study to get this job": ["Construction Management", "Civil Engineering", "Business Administration", "Project Management"]
+    },
+    {
+        "Job Name": "Welder",
+        "Skills Needed": ["Welding techniques", "Blueprint reading", "Attention to safety", "Manual dexterity", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Metalwork"],
+        "Things That the user must study to get this job": ["Welding Program", "Metalworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Plumber",
+        "Skills Needed": ["Plumbing techniques", "Blueprint reading", "Problem-solving", "Manual dexterity", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Plumbing Program", "Blueprint Reading", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Carpenter",
+        "Skills Needed": ["Woodworking", "Blueprint reading", "Manual dexterity", "Problem-solving", "Attention to detail"],
+        "Things That The User Needs to like": ["Working with wood", "Building and repairing things", "Physical labor", "Working with your hands"],
+        "Things That the user must study to get this job": ["Carpentry Program", "Woodworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Electrician",
+        "Skills Needed": ["Electrical systems knowledge", "Problem-solving", "Manual dexterity", "Attention to safety", "Reading blueprints"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Physics", "Vocational Training (electrical)", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "HVAC Technician",
+        "Skills Needed": ["HVAC systems knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Working with technology"],
+        "Things That the user must study to get this job": ["HVAC Program", "Physics", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Auto Mechanic",
+        "Skills Needed": ["Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Customer service"],
+        "Things That The User Needs to like": ["Working with cars", "Repairing machines", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Automotive Technology Program", "Physics", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Machinist",
+        "Skills Needed": ["Machinery operation", "Blueprint reading", "Manual dexterity", "Attention to detail", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with machines", "Building parts", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Machining Program", "Blueprint Reading", "Applied Mathematics"]
+    },
+    {
+        "Job Name": "Paralegal",
+        "Skills Needed": ["Legal research", "Writing and editing", "Attention to detail", "Organizational skills", "Communication"],
+        "Things That The User Needs to like": ["Working in a law office", "Legal research", "Helping lawyers", "Organizing documents"],
+        "Things That the user must study to get this job": ["Paralegal Studies", "Law", "Legal Research"]
+    },
+    {
+        "Job Name": "Court Reporter",
+        "Skills Needed": ["Typing skills", "Stenography", "Attention to detail", "Legal knowledge", "Communication"],
+        "Things That The User Needs to like": ["Working in a courtroom", "Typing fast", "Legal procedures", "Attention to detail"],
+        "Things That the user must study to get this job": ["Court Reporting Program", "Legal Studies", "Typing"]
+    },
+    {
+        "Job Name": "Forensic Scientist",
+        "Skills Needed": ["Lab techniques", "Chemistry", "Biology", "Data analysis", "Attention to detail"],
+        "Things That The User Needs to like": ["Solving crimes", "Working in a lab", "Science and technology", "Problem-solving"],
+        "Things That the user must study to get this job": ["Forensic Science", "Chemistry", "Biology", "Criminology"]
+    },
+    {
+        "Job Name": "Criminologist",
+        "Skills Needed": ["Research methods", "Statistical analysis", "Problem-solving", "Legal knowledge", "Writing skills"],
+        "Things That The User Needs to like": ["Studying crime", "Analyzing data", "Research", "Helping law enforcement"],
+        "Things That the user must study to get this job": ["Criminology", "Sociology", "Psychology", "Statistics"]
+    },
+    {
+        "Job Name": "Police Officer",
+        "Skills Needed": ["Communication", "Problem-solving", "Physical fitness", "First aid", "Stress management"],
+        "Things That The User Needs to like": ["Helping people", "Working with a team", "Law enforcement", "Physical activity"],
+        "Things That the user must study to get this job": ["Criminal Justice", "Law Enforcement Training", "Psychology"]
+    },
+    {
+        "Job Name": "Detective",
+        "Skills Needed": ["Investigation skills", "Problem-solving", "Communication", "Attention to detail", "Critical thinking"],
+        "Things That The User Needs to like": ["Solving mysteries", "Investigating crimes", "Working with a team", "Attention to detail"],
+        "Things That the user must study to get this job": ["Criminal Justice", "Criminology", "Law Enforcement Training"]
+    },
+    {
+        "Job Name": "Firefighter",
+        "Skills Needed": ["First aid", "Physical fitness", "Problem-solving", "Stress management", "Teamwork"],
+        "Things That The User Needs to like": ["Helping people", "Working in emergencies", "Physical activity", "Working with a team"],
+        "Things That the user must study to get this job": ["Fire Science", "First Aid", "Physical Training"]
+    },
+    {
+        "Job Name": "Paramedic",
+        "Skills Needed": ["First aid", "Medical knowledge", "Problem-solving", "Stress management", "Communication"],
+        "Things That The User Needs to like": ["Helping people in emergencies", "Working in a fast-paced environment", "Medical science", "Problem-solving"],
+        "Things That the user must study to get this job": ["Paramedic Program", "Emergency Medical Technician (EMT)", "Anatomy"]
+    },
+    {
+        "Job Name": "Pilot",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Flying planes", "Traveling to new places", "Working in a high-tech environment", "Following strict procedures"],
+        "Things That the user must study to get this job": ["Aviation", "Physics", "Mathematics", "Aeronautical Science"]
+    },
+    {
+        "Job Name": "Air Traffic Controller",
+        "Skills Needed": ["Spatial awareness", "Problem-solving", "Communication", "Stress management", "Attention to detail"],
+        "Things That The User Needs to like": ["Working in a high-stakes environment", "Problem-solving", "Working with technology", "Managing air traffic"],
+        "Things That the user must study to get this job": ["Air Traffic Control", "Aeronautical Science", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Aerospace Engineer",
+        "Skills Needed": ["Aerodynamics", "Propulsion systems", "Structural mechanics", "CAD software", "Problem-solving"],
+        "Things That The User Needs to like": ["Designing aircraft and spacecraft", "Space exploration", "High-tech systems", "Math and physics"],
+        "Things That the user must study to get this job": ["Aerospace Engineering", "Physics", "Mathematics", "Mechanical Engineering"]
+    },
+    {
+        "Job Name": "Aircraft Mechanic",
+        "Skills Needed": ["Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail", "Safety protocols"],
+        "Things That The User Needs to like": ["Working with your hands", "Repairing aircraft", "Physical labor", "Working with machines"],
+        "Things That the user must study to get this job": ["Aircraft Maintenance Program", "Aeronautics", "Physics"]
+    },
+    {
+        "Job Name": "Ship Captain",
+        "Skills Needed": ["Navigation", "Leadership", "Problem-solving", "Communication", "Stress management"],
+        "Things That The User Needs to like": ["Sailing and boating", "Traveling by sea", "Leadership", "Problem-solving"],
+        "Things That the user must study to get this job": ["Nautical Science", "Maritime Studies", "Navigation"]
+    },
+    {
+        "Job Name": "Marine Engineer",
+        "Skills Needed": ["Marine systems knowledge", "Mechanical knowledge", "Problem-solving", "Manual dexterity", "Attention to detail"],
+        "Things That The User Needs to like": ["Working on a ship", "Repairing marine systems", "Working with your hands", "Physical labor"],
+        "Things That the user must study to get this job": ["Marine Engineering", "Mechanical Engineering", "Physics"]
+    },
+    {
+        "Job Name": "Urban Planner",
+        "Skills Needed": ["GIS software", "Policy analysis", "Community engagement", "Spatial analysis", "Project management"],
+        "Things That The User Needs to like": ["Designing cities", "Improving communities", "Sustainability", "Community development"],
+        "Things That the user must study to get this job": ["Urban Planning", "Geography", "Public Policy", "Architecture"]
+    },
+    {
+        "Job Name": "Architect",
+        "Skills Needed": ["Design software (e.g., AutoCAD)", "Spatial awareness", "Drawing and sketching", "Building materials knowledge", "Communication"],
+        "Things That The User Needs to like": ["Designing buildings", "Creating blueprints", "Art and design", "Urban planning"],
+        "Things That the user must study to get this job": ["Architecture", "Art History", "Mathematics", "Physics"]
+    },
+    {
+        "Job Name": "Landscape Architect",
+        "Skills Needed": ["Drawing and sketching", "Plant knowledge", "Spatial planning", "Project management", "Communication"],
+        "Things That The User Needs to like": ["Designing parks and gardens", "Working outdoors", "Nature and plants", "Creative expression"],
+        "Things That the user must study to get this job": ["Landscape Architecture", "Horticulture", "Botany", "Environmental Science"]
+    },
+    {
+        "Job Name": "Construction Manager",
+        "Skills Needed": ["Project management", "Budgeting", "Team leadership", "Problem-solving", "Building codes"],
+        "Things That The User Needs to like": ["Managing a construction project", "Working with a team", "Problem-solving", "Physical labor"],
+        "Things That the user must study to get this job": ["Construction Management", "Civil Engineering", "Business Administration", "Project Management"]
+    },
+    {
+        "Job Name": "Welder",
+        "Skills Needed": ["Welding techniques", "Blueprint reading", "Attention to safety", "Manual dexterity", "Problem-solving"],
+        "Things That The User Needs to like": ["Working with your hands", "Building and repairing things", "Physical labor", "Metalwork"],
+        "Things That the user must study to get this job": ["Welding Program", "Metalworking", "Blueprint Reading"]
+    },
+    {
+        "Job Name": "Plumber",
+        "Skills Needed": ["Plumbing techniques", "Blueprint reading", "Problem-solving", "Manual dexterity", "Customer service"],
+        "Things That The User Needs to like": ["Working with your hands", "Solving practical problems", "Building and repairing things", "Physical labor"],
+        "Things That the user must study to get this job": ["Plumbing Program", "Metalworking", "Waterworks"]
+    }
+]
