@@ -344,75 +344,79 @@ function createPDF() {
         const pageWidth = doc.internal.pageSize.getWidth();
         const pageHeight = doc.internal.pageSize.getHeight();
 
-        const imgWidth = pageWidth * 0.7; // 70% width
+        const imgWidth = pageWidth * 0.7;
         const imgHeight = (img.height / img.width) * imgWidth;
         doc.addImage(img, 'JPEG', (pageWidth - imgWidth) / 2, 10, imgWidth, imgHeight);
 
-        let y = 10 + imgHeight + 15; // gap below banner
+        let y = 10 + imgHeight + 15;
 
-        // Contact info
         doc.setFontSize(12);
         doc.setFont("helvetica", "normal");
         doc.text("Contact Us! Gary's Phone: 0433 907 788", pageWidth / 2, y, { align: 'center' });
         y += 15;
 
-        // Title
         doc.setFontSize(22);
         doc.setFont("helvetica", "bold");
         doc.text("Career Recommendations", pageWidth / 2, y, { align: 'center' });
         y += 15;
 
-        // Function to add page numbers
         function addPageNumber() {
             const pageNum = doc.internal.getNumberOfPages();
             doc.setFontSize(10);
             doc.text(`Page ${pageNum}`, pageWidth / 2, pageHeight - 10, { align: 'center' });
         }
 
-        finalRecommendations.slice(0, 3).forEach((job, index) => {
-
-            // Estimate space needed for this job
-            const approxJobHeight = 10 + 7 * (job.matchedInterests.length + job.skills.length + (job.subjects ? job.subjects.length : 0)) + 20;
-            if (y + approxJobHeight > pageHeight - 20) {
+        function checkPageSpace(requiredHeight) {
+            if (y + requiredHeight > pageHeight - 20) {
                 addPageNumber();
                 doc.addPage();
-                y = 20;
+                y = 20; // reset y
             }
+        }
+
+        finalRecommendations.slice(0, 3).forEach((job, index) => {
 
             // Job title
+            checkPageSpace(10);
             doc.setFontSize(16);
             doc.setFont("helvetica", "bold");
             doc.text(`${index + 1}. ${job.name}`, 20, y);
             y += 10;
 
             // Interests
+            checkPageSpace(job.matchedInterests.length * 6 + 7);
             doc.setFontSize(12);
             doc.setFont("helvetica", "bold");
             doc.text("Based on your interests in:", 25, y);
             y += 7;
             doc.setFont("helvetica", "normal");
             job.matchedInterests.forEach(interest => {
+                checkPageSpace(6);
                 doc.text(`- ${interest}`, 30, y);
                 y += 6;
             });
 
             // Skills
+            checkPageSpace(job.skills.length * 6 + 7);
             doc.setFont("helvetica", "bold");
             doc.text("Key Skills:", 25, y);
             y += 7;
             doc.setFont("helvetica", "normal");
             job.skills.forEach(skill => {
+                checkPageSpace(6);
                 doc.text(`- ${skill}`, 30, y);
                 y += 6;
             });
 
             // Subjects
             if (job.subjects && job.subjects.length > 0) {
+                checkPageSpace(job.subjects.length * 6 + 7);
                 doc.setFont("helvetica", "bold");
                 doc.text("Subjects to Study:", 25, y);
                 y += 7;
                 doc.setFont("helvetica", "normal");
                 job.subjects.forEach(subject => {
+                    checkPageSpace(6);
                     doc.text(`- ${subject}`, 30, y);
                     y += 6;
                 });
@@ -421,7 +425,7 @@ function createPDF() {
             y += 10; // space after job
         });
 
-        addPageNumber(); // add page number for the last page
+        addPageNumber();
         doc.save("career_recommendations.pdf");
     };
 }
