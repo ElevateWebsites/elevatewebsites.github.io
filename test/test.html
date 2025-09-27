@@ -223,84 +223,167 @@
             }
         }
 
-    function populateQuestion() {
-        const container = document.getElementById('questions-container');
-        container.innerHTML = '';
-        if (currentQuestionIndex < questions.length) {
-            const q = questions[currentQuestionIndex];
-            const questionElement = document.createElement('div');
-            questionElement.className = 'question-card p-6 bg-gray-50 rounded-xl shadow-inner';
-            
-            const savedValue = answers[q.likes_mapping] || 3;
-            questionElement.innerHTML = `
-                <p class="text-sm text-gray-500 mb-2">[Question ${currentQuestionIndex + 1} / ${questions.length}]</p>
-                <p class="text-xl font-medium text-gray-700 mb-4">${q.prompt}</p>
-                <div class="flex items-center justify-center space-x-2">
-                    <span class="text-gray-500">Not at all</span>
-                    <input type="range" id="q${currentQuestionIndex}" min="1" max="5" value="${savedValue}" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer range-lg">
-                    <span class="text-gray-500">Very much</span>
-                </div>
-            `;
-            container.appendChild(questionElement);
-            updateNavigationButtons();
-            updateProgressBar();
-        } else {
-            generateRecommendations();
+        function populateQuestion() {
+            const container = document.getElementById('questions-container');
+            container.innerHTML = '';
+            if (currentQuestionIndex < questions.length) {
+                const q = questions[currentQuestionIndex];
+                const questionElement = document.createElement('div');
+                questionElement.className = 'question-card p-6 bg-gray-50 rounded-xl shadow-inner';
+                
+                const savedValue = answers[q.likes_mapping] || 3;
+                questionElement.innerHTML = `
+                    <p class="text-sm text-gray-500 mb-2">[Question ${currentQuestionIndex + 1} / ${questions.length}]</p>
+                    <p class="text-xl font-medium text-gray-700 mb-4">${q.prompt}</p>
+                    <div class="flex items-center justify-center space-x-2">
+                        <span class="text-gray-500">Not at all</span>
+                        <input type="range" id="q${currentQuestionIndex}" min="1" max="5" value="${savedValue}" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer range-lg">
+                        <span class="text-gray-500">Very much</span>
+                    </div>
+                `;
+                container.appendChild(questionElement);
+                updateNavigationButtons();
+                updateProgressBar();
+            } else {
+                generateRecommendations();
+            }
         }
-    }
 
-    function createPDF() {
-        const { jsPDF } = window.jspdf;
-        const doc = new jsPDF();
-        doc.setFontSize(22);
-        doc.text("Career Recommendations", 20, 20);
-        let y = 30;
+        function updateProgressBar() {
+            const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
+            document.getElementById('progress-bar').style.width = `${progress}%`;
+        }
 
-        // Always include all three jobs
-        finalRecommendations.slice(0, 3).forEach((job, index) => {
-            doc.setFontSize(16);
-            doc.text(`${index + 1}. ${job.name}`, 20, y + 10);
-            y += 20;
-            doc.setFontSize(12);
-            doc.setFont("helvetica", "bold");
-            doc.text("Based on your interests in:", 25, y);
-            y += 8;
-            doc.setFont("helvetica", "normal");
-            job.matchedInterests.forEach(interest => { 
-                doc.text(`- ${interest}`, 30, y); 
-                y += 7; 
+        function updateNavigationButtons() {
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            prevBtn.style.display = currentQuestionIndex > 0 ? 'inline-block' : 'none';
+            nextBtn.textContent = currentQuestionIndex === questions.length - 1 ? 'See Results' : 'Next';
+        }
+
+        function collectAnswer() {
+            const q = questions[currentQuestionIndex];
+            const input = document.getElementById(`q${currentQuestionIndex}`);
+            if (input) answers[q.likes_mapping] = parseInt(input.value, 10);
+        }
+
+        function generateRecommendations() {
+            if (jobsData.length === 0) {
+                showMessage("Failed to generate recommendations. Please reload.");
+                showView('test-view');
+                return;
+            }
+            const jobScores = jobsData.map(job => {
+                let score = 0;
+                let matchedInterests = [];
+                for (const interest in answers) {
+                    if (job["Things That The User Needs to like"].includes(interest)) {
+                        score += answers[interest];
+                        if (answers[interest] > 3) matchedInterests.push(interest);
+                    }
+                }
+                return { name: job["Job Name"], skills: job["Skills Needed"], subjects: job["Things That the user must study to get this job"], score, matchedInterests };
             });
-            y += 5;
-            doc.setFont("helvetica", "bold");
-            doc.text("Key Skills:", 25, y);
-            y += 8;
-            doc.setFont("helvetica", "normal");
-            job.skills.forEach(skill => { 
-                doc.text(`- ${skill}`, 30, y); 
-                y += 7; 
-            });
-            if (job.subjects && job.subjects.length > 0) {
-                y += 5;
+            jobScores.sort((a, b) => b.score - a.score);
+            finalRecommendations = jobScores.filter(job => job.score > 0).slice(0, 3);
+            displayResults(finalRecommendations);
+        }
+
+        function displayResults(recommendations) {
+            const container = document.getElementById('recommendations-container');
+            container.innerHTML = '';
+            if (recommendations.length > 0) {
+                recommendations.forEach(job => {
+                    const jobCard = document.createElement('div');
+                    jobCard.className = 'job-card bg-gray-50 p-6 rounded-xl shadow-md border-t-4 border-indigo-600';
+                    jobCard.innerHTML = `
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">${job.name}</h3>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-gray-700 mb-1">Based on your interests in:</h4>
+                            <ul class="list-disc list-inside text-gray-600">
+                                ${job.matchedInterests.map(i => `<li>${i}</li>`).join('')}
+                            </ul>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-gray-700 mb-1">Key Skills:</h4>
+                            <ul class="list-disc list-inside text-gray-600">
+                                ${job.skills.map(skill => `<li>${skill}</li>`).join('')}
+                            </ul>
+                        </div>
+                        ${job.subjects && job.subjects.length > 0 ? `
+                            <div>
+                                <h4 class="font-semibold text-gray-700 mb-1">Subjects to Study:</h4>
+                                <ul class="list-disc list-inside text-gray-600">
+                                    ${job.subjects.map(subject => `<li>${subject}</li>`).join('')}
+                                </ul>
+                            </div>` : ''}
+                    `;
+                    container.appendChild(jobCard);
+                });
+            } else {
+                container.innerHTML = '<p class="text-center text-gray-600">No career recommendations found. Try adjusting your preferences.</p>';
+            }
+            showView('results-view');
+        }
+
+        function resetTest() {
+            currentQuestionIndex = 0;
+            answers = {};
+            populateQuestion();
+        }
+        
+        function createPDF() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+            doc.setFontSize(22);
+            doc.text("Career Recommendations", 20, 20);
+            let y = 30;
+
+            // Always include all three jobs
+            finalRecommendations.slice(0, 3).forEach((job, index) => {
+                doc.setFontSize(16);
+                doc.text(`${index + 1}. ${job.name}`, 20, y + 10);
+                y += 20;
+                doc.setFontSize(12);
                 doc.setFont("helvetica", "bold");
-                doc.text("Subjects to Study:", 25, y);
+                doc.text("Based on your interests in:", 25, y);
                 y += 8;
                 doc.setFont("helvetica", "normal");
-                job.subjects.forEach(subject => { 
-                    doc.text(`- ${subject}`, 30, y); 
+                job.matchedInterests.forEach(interest => { 
+                    doc.text(`- ${interest}`, 30, y); 
                     y += 7; 
                 });
-            }
-            y += 15;
+                y += 5;
+                doc.setFont("helvetica", "bold");
+                doc.text("Key Skills:", 25, y);
+                y += 8;
+                doc.setFont("helvetica", "normal");
+                job.skills.forEach(skill => { 
+                    doc.text(`- ${skill}`, 30, y); 
+                    y += 7; 
+                });
+                if (job.subjects && job.subjects.length > 0) {
+                    y += 5;
+                    doc.setFont("helvetica", "bold");
+                    doc.text("Subjects to Study:", 25, y);
+                    y += 8;
+                    doc.setFont("helvetica", "normal");
+                    job.subjects.forEach(subject => { 
+                        doc.text(`- ${subject}`, 30, y); 
+                        y += 7; 
+                    });
+                }
+                y += 15;
 
-            // Add new page if close to bottom
-            if (y > 260) {
-                doc.addPage();
-                y = 20;
-            }
-        });
+                // Add new page if close to bottom
+                if (y > 260) {
+                    doc.addPage();
+                    y = 20;
+                }
+            });
 
-        doc.save("career_recommendations.pdf");
-    }
+            doc.save("career_recommendations.pdf");
+        }
 
         document.getElementById('start-btn').addEventListener('click', () => {
             showView('test-view');
@@ -323,10 +406,7 @@
             showView('test-view');
         });
 
-        document.addEventListener('DOMContentLoaded', () => {
-            fetchJobsDatabase().then(() => { populateQuestion(); });
-            showView('welcome-view');
-        });
+        fetchJobsDatabase();
     </script>
 </body>
 </html>
