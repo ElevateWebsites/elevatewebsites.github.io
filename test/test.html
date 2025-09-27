@@ -334,58 +334,81 @@
             populateQuestion();
         }
         
-        function createPDF() {
-            const { jsPDF } = window.jspdf;
-            const doc = new jsPDF();
-            doc.setFontSize(22);
-            doc.text("Career Recommendations", 20, 20);
-            let y = 30;
+function createPDF() {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
 
-            // Always include all three jobs
-            finalRecommendations.slice(0, 3).forEach((job, index) => {
-                doc.setFontSize(16);
-                doc.text(`${index + 1}. ${job.name}`, 20, y + 10);
-                y += 20;
-                doc.setFontSize(12);
-                doc.setFont("helvetica", "bold");
-                doc.text("Based on your interests in:", 25, y);
-                y += 8;
-                doc.setFont("helvetica", "normal");
-                job.matchedInterests.forEach(interest => { 
-                    doc.text(`- ${interest}`, 30, y); 
-                    y += 7; 
-                });
-                y += 5;
-                doc.setFont("helvetica", "bold");
-                doc.text("Key Skills:", 25, y);
-                y += 8;
-                doc.setFont("helvetica", "normal");
-                job.skills.forEach(skill => { 
-                    doc.text(`- ${skill}`, 30, y); 
-                    y += 7; 
-                });
-                if (job.subjects && job.subjects.length > 0) {
-                    y += 5;
-                    doc.setFont("helvetica", "bold");
-                    doc.text("Subjects to Study:", 25, y);
-                    y += 8;
-                    doc.setFont("helvetica", "normal");
-                    job.subjects.forEach(subject => { 
-                        doc.text(`- ${subject}`, 30, y); 
-                        y += 7; 
-                    });
-                }
-                y += 15;
+    // Add banner
+    const img = new Image();
+    img.src = 'banner.jpg';
+    img.onload = () => {
+        const pageWidth = doc.internal.pageSize.getWidth();
+        const imgWidth = pageWidth * 0.5; // 50% of page width
+        const imgHeight = (img.height / img.width) * imgWidth;
+        doc.addImage(img, 'JPEG', (pageWidth - imgWidth) / 2, 10, imgWidth, imgHeight);
 
-                // Add new page if close to bottom
-                if (y > 260) {
-                    doc.addPage();
-                    y = 20;
-                }
+        let y = 10 + imgHeight + 5; // move below banner
+
+        // Add contact info
+        doc.setFontSize(12);
+        doc.setFont("helvetica", "normal");
+        doc.text("Contact Us! Gary's Phone: 0433 907 788", pageWidth / 2, y, { align: 'center' });
+        y += 15;
+
+        // Add title
+        doc.setFontSize(22);
+        doc.setFont("helvetica", "bold");
+        doc.text("Career Recommendations", pageWidth / 2, y, { align: 'center' });
+        y += 15;
+
+        // Always include all three jobs
+        finalRecommendations.slice(0, 3).forEach((job, index) => {
+            doc.setFontSize(16);
+            doc.setFont("helvetica", "bold");
+            doc.text(`${index + 1}. ${job.name}`, 20, y);
+            y += 10;
+            
+            doc.setFontSize(12);
+            doc.setFont("helvetica", "bold");
+            doc.text("Based on your interests in:", 25, y);
+            y += 7;
+            doc.setFont("helvetica", "normal");
+            job.matchedInterests.forEach(interest => { 
+                doc.text(`- ${interest}`, 30, y); 
+                y += 6; 
             });
 
-            doc.save("career_recommendations.pdf");
-        }
+            doc.setFont("helvetica", "bold");
+            doc.text("Key Skills:", 25, y);
+            y += 7;
+            doc.setFont("helvetica", "normal");
+            job.skills.forEach(skill => { 
+                doc.text(`- ${skill}`, 30, y); 
+                y += 6; 
+            });
+
+            if (job.subjects && job.subjects.length > 0) {
+                doc.setFont("helvetica", "bold");
+                doc.text("Subjects to Study:", 25, y);
+                y += 7;
+                doc.setFont("helvetica", "normal");
+                job.subjects.forEach(subject => { 
+                    doc.text(`- ${subject}`, 30, y); 
+                    y += 6; 
+                });
+            }
+
+            y += 10;
+            if (y > 260) { // new page if near bottom
+                doc.addPage();
+                y = 20;
+            }
+        });
+
+        doc.save("career_recommendations.pdf");
+    };
+}
+
 
         document.getElementById('start-btn').addEventListener('click', () => {
             showView('test-view');
